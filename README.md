@@ -1,5 +1,6 @@
 ## Utilities to use youtube-dl and the videos I watch
 
+
 ### [Funtional programming](Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016)
 
 Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go. 
@@ -15,6 +16,7 @@ Tough croud though, didn't really reacted in any way.
 This is a course held by prof Skiena, it's a regular university course so it's pretty long, I've liked it as it gave me
 some background on the matter, "some" because it's not an area I find particularly interesting, but if you do this might
 be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
+
 
 ### Science
 
@@ -34,3 +36,24 @@ time as seen by the outside.
 There's lots of information near the horizon!
 One of the things I probably misunderstood the most is that distant Hawking could be  a description of the interior of a black hole,
 which sounds amazing.
+
+
+### TDD
+
+#### [The Three Laws of TDD](https://www.youtube.com/watch?v=AoIfc5NwRks)
+
+It's an introduction to TDD, with some theory and some examples on how to use it.
+
+ * You are not allowed to write any production code unless it is to make a failing unit test pass
+
+Which means you have to write the test first.
+
+ * You are not allowed to write any any more of a unit test than is sufficient to fail; ad compilation failures are failures
+ * You are not allowed to write any any more production code than is sufficient to pass the one failing unit test
+ 
+Unit tests as examples of how your code works.
+If you write the tests first it's impossible to write a function that's hard to test, functions are written to be easy to test. 
+The goal of TDD is to create a test suite such that when it passes you can deploy.
+A reliable test suite that passes allows you to make decisions.
+
+TDD is a way to incrementally derive solutions to problems.
