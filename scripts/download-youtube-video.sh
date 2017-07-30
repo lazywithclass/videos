@@ -1,3 +1,3 @@
 #!/bin/bash
 
-../scripts/youtube-dl -o './%(title)s.%(ext)s' $1
+./scripts/youtube-dl -o './list/%(title)s.%(ext)s' $1
