@@ -64,6 +64,26 @@ You could "summarise" it like so:
 If you don't know what that means you're not alone, this is what I meant when I said that this talk gives 
 you lots of resources to expand your knowledge.
 
+#### [](Rob Martin - Teaching functional programming to noobs in mobs (Lambda Days 2016))
+
+Hire uniors. They inspire seniors to work better, they get trained and they can learn more than seniors usually do.
+Why learning functional programming? Because simplicity allows to:
+
+ * reason about code
+ * test code
+ * prove our code
+ * trust our code
+
+Functional programming languages usually limit the power of the user, wink wink to Out Of The Tar Pit.
+In functional programming our state is exposed, if it's too complex, it's there as a parameter, so it's much easier
+to spot.
+Do everything you can without side effects, don't mutate variables, don't handle state (your state should be just in 
+the tests), compose your functions, then, once you're done introduce side effects. 
+So our business logic almost never depends on other libraries, while our side effects logic almost exclusively libraries
+so we don't have to run unit tests around them.
+He also introduces the concept of mob programming.
+I feel there's lots of wisdom pearls in how to manage a team.
+
 
 ### Algorithms and data structures
 
