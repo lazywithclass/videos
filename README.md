@@ -9,7 +9,7 @@
 
 ### The craft
 
-#### []('Uncle' Bob Martin - 'The Future of Programming')
+#### [https://www.youtube.com/watch?v=ecIWPzGEbFc]('Uncle' Bob Martin - 'The Future of Programming')
 
 "Why is it that we programmers are never happy with our language?"
 "Why is it that our industry is so incredibly male dominated?"
@@ -34,21 +34,21 @@ and how "we rule the world", and what we could do to limit problems.
 
 ### [Funtional programming]
 
-#### [](Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016)
+#### [https://www.youtube.com/watch?v=e-5obm1G_FY](Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016)
 
 Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go. 
 It's an introductory talk if you're approaching functional programming and want to know what it is about, with some examples 
 expecially on [map / reduce](https://youtu.be/e-5obm1G_FY?t=678) which instantly give you an idea.
 Tough croud though, didn't really reacted in any way.
 
-#### [](Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017)
+#### [https://www.youtube.com/watch?v=Wo0qiGPSV-s](Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017)
 
 Because I've watched the previous one, and because she has the funny approach that reminds me so much of other
 fellow Recurse Center alumni.
 In half an hour or so she explains the theory behind immutable data structures.
 Doesn't explain why though, TODO, get a video where they explain why should we use immutable data structures.
 
-#### [](Keynote - Why Functional Programming Matters - John Hughes, Mary Sheeran (Lambda Days 2017))
+#### [https://www.youtube.com/watch?v=1qBHf8DrWR8](Keynote - Why Functional Programming Matters - John Hughes, Mary Sheeran (Lambda Days 2017))
 
 This is one of those talks that give you lots of resources to expand the subject.
 They speak about how you should structure your code with functions intended as consumers and producers.
@@ -64,7 +64,7 @@ You could "summarise" it like so:
 If you don't know what that means you're not alone, this is what I meant when I said that this talk gives 
 you lots of resources to expand your knowledge.
 
-#### [](Rob Martin - Teaching functional programming to noobs in mobs (Lambda Days 2016))
+#### [https://www.youtube.com/watch?v=bmFKEewRRQg](Rob Martin - Teaching functional programming to noobs in mobs (Lambda Days 2016))
 
 Hire uniors. They inspire seniors to work better, they get trained and they can learn more than seniors usually do.
 Why learning functional programming? Because simplicity allows to:
