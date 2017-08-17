@@ -31,6 +31,21 @@ Our advancement since 1945 is almost entirely about what not to do than what to 
 The last 15-20 minutes are particularly interesting, where Bob Martin explains how "we kill people" 
 and how "we rule the world", and what we could do to limit problems.
 
+#### [https://www.youtube.com/watch?v=1PhArSujR_A](John Carmack's keynote at Quakecon 2013 part 4)
+
+John Carmack talks about a few concepts, particularly interesting for me were
+
+ * functional programming - functional style allows for self contained code, because it's all about passing something
+ in and getting something out, the advanteges of writing code in pure form are a big win especially in the long term
+ * Haskell - brutal purity of Haskell [...] multi paradigm as if its a good thing, but it means you could always
+do the bad thing if you feel you really need to, and programmers are extremely bad at doing sort of the time 
+scale integration of the cost of doing something that they know is negative [...] how many times this little bad thing is going
+to affect them
+ * Lisp
+ * Scheme
+ * strong and weak typing - everything that's syntactically legal, and the compiler will accept, will eventually 
+ wind up in your code base and that's why static typing is so valuable because it cuts down on what can make it past 
+ 
 
 ### [Funtional programming]
 
