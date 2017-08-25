@@ -125,8 +125,16 @@ layers and layers of sediments consisting of things that got attracted and never
 how it takes a finite amount of time to fall through the horizon for an in flowing observer and an infinite amount of
 time as seen by the outside.
 There's lots of information near the horizon!
-One of the things I probably misunderstood the most is that distant Hawking could be  a description of the interior of a black hole,
+One of the things I probably misunderstood the most is that distant Hawking could be a description of the interior of a black hole,
 which sounds amazing.
+
+#### [How Earth Moves]()
+
+Micheal (VSauce) explains the difference between a sidereal day and a solar day; this video is packed of information but a few
+interesting things are clear without turning to Wikipedia, for example that the Earth follows an elliptical orbit around the Sun.
+A clear explanation of seasons and leap day could be found in the video, but it's really the introduction of the Gregorian calendar
+that seemed really interesting.
+Phenomenal closing though about "THE tide of your life".
 
 
 ### TDD
