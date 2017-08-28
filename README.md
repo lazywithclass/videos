@@ -51,7 +51,7 @@ to affect them
  wind up in your code base and that's why static typing is so valuable because it cuts down on what can make it past 
  
 
-### [Funtional programming]
+### Funtional programming
 
 #### [https://www.youtube.com/watch?v=e-5obm1G_FY](Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016)
 
