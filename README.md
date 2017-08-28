@@ -1,5 +1,9 @@
 ## Utilities to use youtube-dl and the videos I watch
 
+You will find notes under the videos, don't expect those to be complete or too accurate, they just
+represent with sentences the parts I've found most interesting, you should skim through those and get
+a feel if you could be interested too.
+
  * [The craft](#the-craft)
  * [Functional programming](#functional-programming)
  * [Algorithms and data structures](#algorithms-and-data-structures)
