@@ -52,7 +52,6 @@ to affect them
  
 
 ### Funtional programming
-
 #### [https://www.youtube.com/watch?v=e-5obm1G_FY](Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016)
 
 Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go. 
@@ -103,9 +102,45 @@ so we don't have to run unit tests around them.
 He also introduces the concept of mob programming.
 I feel there's lots of wisdom pearls in how to manage a team.
 
+#### [Functional programming design patterns by Scott Wlaschin]()
+
+Whirlwind tour at high speed of several concepts.
+
+Functions are things, not really attached to classes or objets, take something in and send something out.
+
+Composition everywhere.
+
+Types are not classes, they're just set of inputs and outputs to functions. A name given to a set of values.
+
+Strive for totality: for every input there's a valid output.
+For example in a function that divides `12` by the given input you could do this in two ways to avoid division by zero, and the dilemma
+of having to throw exception or not:
+ 
+ * restrict the input with a type like `NonZeroInteger` that has all integers except `0`
+ * extend the output to be optional (`Maybe` monad)
+ 
+Parameterise all the things.
+
+I *loved* what follows, I really did, he basically started with interfaces, explained how they're a bit bloated and proposed types as substitutes.
+
+Function types are interfaces, if you add the Single Responsibility Principle (only one reason to change) and the Interface Segregation Principle 
+(don't contaminate interfaces with too many things) and you take that a bit to the extreme you get interfaces with just one function. But an interface
+with a single function is just a funtion type, and any function that has the same signature is compatible with it, and you don't have to inherit anything,
+it's automatic synce they share the signature!
+
+Partial application, which is useful for dependency injection too allowing to bake in things like database connections.
+
+Continuations, the Hollywood principle: don't call us we'll call you.
+Let the caller decide what's going to happen, passing in functions for example to deal with the division by 0 from above.
+
+How to combine a function that outputs two different types with one that accepts just one?
+Bind all the things! (monadic bind)
+
+Map allows you to stay in the world of options, so you could call functions on types that you're not sure what value they represent, think about
+the result of an async call that returns a `Maybe`, most generic wrapped generic types have a `map`, use it! Functors are just mappable types.
+
 
 ### Algorithms and data structures
-
 #### [CSE373 2012 - Introduction to Algorithms](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
 This is a course held by prof Skiena, it's a regular university course so it's pretty long, I've liked it as it gave me
@@ -160,3 +195,5 @@ The goal of TDD is to create a test suite such that when it passes you can deplo
 A reliable test suite that passes allows you to make decisions.
 
 TDD is a way to incrementally derive solutions to problems.
+
+
