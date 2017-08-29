@@ -140,6 +140,18 @@ Map allows you to stay in the world of options, so you could call functions on t
 the result of an async call that returns a `Maybe`, most generic wrapped generic types have a `map`, use it! Functors are just mappable types.
 
 
+#### [Clojure Remote - The Elements of a Functional Mindset (Eric Normand)]()
+"The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise."
+
+-- Edsger Dijkstra
+
+You don't want to have side effects buried in the code, pull them out separating them calling the side effect function elsewhere and pass 
+the result.
+
+Functions should not depend on internal structure of data, pull out a new function that knows how to access fields in the data structure.
+
+Distinguish what you calculate and how you calculate that something, pull out the structure into one place. 
+
 ### Algorithms and data structures
 #### [CSE373 2012 - Introduction to Algorithms](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 
