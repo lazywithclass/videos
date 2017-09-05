@@ -121,6 +121,19 @@ Functions should not depend on internal structure of data, pull out a new functi
 
 Distinguish what you calculate and how you calculate that something, pull out the structure into one place. 
 
+### Idris
+
+#### [Dependent Types in the Idris Programming Language 1 - Edwin Brady - OPLSS 2017](https://www.youtube.com/watch?v=zSsCLnLS1hg)
+
+Edwin introduces the concept of Type Driven Development, which he also explains in 
+[Type Driven Development with Idris](https://www.manning.com/books/type-driven-development-with-idris); type define refine as opposed to
+red green refactor.
+
+One thing in common with Test Driven Development, it's about deciding what you're going to do before you do it.
+Types are a mean by which you tell the machine "this is what we are going to work on together".
+
+ 
+
 ### Politics
 #### [Noam Chomsky on Democracy Now! April 4, 2017 (FULL Interview)]()
 
@@ -136,8 +149,7 @@ of nuclear weapons, in return the US should stop threatening maneuvers on the bo
 "If the US did decide to use force against North Korea, [...] Seul (confused) be wiped out by mass North Korean artillery". 
 
 Nort Korea was destroyed by the most intensive bombing in history, they flattened the country, leaving no targets left.
-Then they attacked the dams, which is a war crime of course. 
-******************TODO READ official airforce history of the bombing of North Korea, link it here tho (is it called Airforce Quarterly?)***************************
+Then they attacked the dams, which is a war crime of course. [On the subject](https://en.wikipedia.org/wiki/Attack_on_the_Sui-ho_Dam)
 
 Doomsday clock set at 2min 30sec.
 
@@ -150,20 +162,34 @@ as it represents what could happen if just policies are presented, which meet th
 Trump is not going to bring back jobs, what happens then? Something has to be made to maintain control, so scape goating could be an option,
 then an alledged terrorist attack, or a staged attack of minor kind. "It's very easy to terrify people".
 
-*****TODO LOOKUP WORLD OPINION POLLS****
-
 Iran has very low military spending, even compared to the region standard (Saudi Arabia, Israel, ...) they want to deter attacks.
 If they are developing nuclear weeapons is for their deterred strategy. 
 "Who's concerned about a deterred? Those who want to use force. [...] So yes Iran is the greatest threat to world peace".
 
-
-**** TODO LOOKUP Dr King Beyond Vietnam speech ******
-
-***** TODO POWELL MEMORANDUM ?****** 
-
 Mortality is increasing amongst low and middle class working class middle aged white americans, that's something unknown in developed 
 society, it's something called Disease of Despair: there is no feeling of hope in the future or sense of dignity.
 
+#### [Martin Luther King – Beyond Vietnam: A Time to Break Silence](http://kingencyclopedia.stanford.edu/encyclopedia/documentsentry/doc_beyond_vietnam/)
+
+"A time comes when silence is betrayal."
+
+"For we are deeply in need of a new way beyond the darkness that seems so close around us", this is so in line with what's happening these days
+(early September 2017) between North Korea and US (again).
+
+"And I knew that America would never invest the necessary funds or energies in rehabilitation of its poor so long as adventures like 
+Vietnam continued to draw men and skills and money like some demonic, destructive suction tube. So I was increasingly compelled to see the war 
+as an enemy of the poor and to attack it as such." which is the same thing one asks themself when questioning Trump's actions these days, is being
+so belligerant going to help Americans? Is being openly hostile towards people near US south border going to be any good in the long term?
+
+"So we have been repeatedly faced with the cruel irony of watching Negro and white boys on TV screens as they kill and die together for a nation that has 
+been unable to seat them together in the same schools. So we watch them in brutal solidarity burning the huts of a poor village, but we realize that 
+they would hardly live on the same block in Chicago. I could not be silent in the face of such cruel manipulation of the poor."
+
+"Those who make peaceful revolution impossible will make violent revolution inevitable." John F. Kennedy.
+
+"One day we must come to see that the whole Jericho Road must be transformed so that men and women will not be constantly beaten and robbed as 
+they make their journey on life’s highway. True compassion is more than flinging a coin to a beggar. It comes to see than an edifice which produces
+beggars needs restructuring".
 
 ### Science
 #### [Cosmos - A Spacetime Odyssey](https://www.netflix.com/watch/80004601)
