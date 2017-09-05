@@ -192,6 +192,15 @@ that seemed really interesting.
 Phenomenal closing though about "THE tide of your life".
 
 
+### Sports
+
+#### [Guillaume Néry: The exhilarating peace of freediving](https://www.youtube.com/watch?v=IDbmG5KFnqc)
+
+A poetic view of what both body and mind experience during a freedive towards 123 meters below the surface.
+Give a few insights on how a freediver prepares for the descent and what they experience during it.
+
+[Also.](https://www.youtube.com/watch?v=yzh0woiH7Jw)
+
 ### TDD
 #### [The Three Laws of TDD](https://www.youtube.com/watch?v=AoIfc5NwRks)
 
