@@ -130,9 +130,28 @@ Edwin introduces the concept of Type Driven Development, which he also explains 
 red green refactor.
 
 One thing in common with Test Driven Development, it's about deciding what you're going to do before you do it.
-Types are a mean by which you tell the machine "this is what we are going to work on together".
+Types are a mean by which you tell the machine "this is what we are going to work on together", it's a dialog with the machine.
+Types are first class citizens as functions are in functional programming languages.
 
+You define functions by recursively defined equations.
+
+In type driven development you
+
+ * write the type
+ * add the definition
+ * split case of the hole name
+
+You coudl also search for a possibile implementation with the proper command.
+
+"Just because you have types doesn't mean you can't add more tests, and you should add more tests."
  
+Look at type holes for hints on how to proceed.
+
+Build functions one bit at a time leveraging the compiler can help you with the types of your holes.
+
+Lowercase letters in types are always implicitly bound.
+
+As soon as you have something a bit hard to do, make another function to do that harder thing.
 
 ### Politics
 #### [Noam Chomsky on Democracy Now! April 4, 2017 (FULL Interview)]()
