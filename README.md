@@ -26,6 +26,7 @@ be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
 <summary>
 <a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016</a>
 </summary>
+
 Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go. 
 It's an introductory talk if you're approaching functional programming and want to know what it is about, with some examples 
 expecially on [map / reduce](https://youtu.be/e-5obm1G_FY?t=678) which instantly give you an idea.
@@ -36,6 +37,7 @@ Tough croud though, didn't really reacted in any way.
 <summary>
 <a href="https://www.youtube.com/watch?v=Wo0qiGPSV-s">Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017</a>
 </summary>
+
 Because I've watched the previous one, and because she has the funny approach that reminds me so much of other
 fellow Recurse Center alumni.
 In half an hour or so she explains the theory behind immutable data structures.
