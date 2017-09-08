@@ -14,7 +14,7 @@ a feel if you could be interested too.
 ### Algorithms and data structures
 <details>
 <summary>
-[CSE373 2012 - Introduction to Algorithms](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+<a href="https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b">CSE373 2012 - Introduction to Algorithms</a>
 </summary>
 This is a course held by prof Skiena, it's a regular university course so it's pretty long, I've liked it as it gave me
 some background on the matter, "some" because it's not an area I find particularly interesting, but if you do this might
