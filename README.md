@@ -21,8 +21,6 @@ some background on the matter, "some" because it's not an area I find particular
 be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
 </details>
 
-
-
 ### Funtional programming
 <details>
 <summary>
@@ -38,11 +36,10 @@ Tough croud though, didn't really reacted in any way.
 <summary>
 <a href="https://www.youtube.com/watch?v=Wo0qiGPSV-s">Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017</a>
 </summary>
-
 Because I've watched the previous one, and because she has the funny approach that reminds me so much of other
 fellow Recurse Center alumni.
 In half an hour or so she explains the theory behind immutable data structures.
-Doesn't explain why though, TODO, get a video where they explain why should we use immutable data structures.
+Doesn't explain why though.
 </details>
 
 <details>
