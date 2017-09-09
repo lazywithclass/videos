@@ -6,8 +6,10 @@ a feel if you could be interested too.
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [Functional programming](#functional-programming)
+ * [Idris](#idris)
  * [Politics](#politics)
  * [Science](#science')
+ * [Sports](#sports)
  * [TDD](#tdd)
  * [The craft](#the-craft)
 
@@ -295,6 +297,31 @@ A poetic view of what both body and mind experience during a freedive towards 12
 Give a few insights on how a freediver prepares for the descent and what they experience during it.
 
 [Also.](https://www.youtube.com/watch?v=yzh0woiH7Jw)
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=odIXWv1m2a8">Tanya Streeter | TEDxAustin 2012</a>
+</summary>
+I was fascinated by the previous one and impressed by the story of [Audrey Mestre](https://en.wikipedia.org/wiki/Audrey_Mestre)
+I got to know after that, where Tanya appears briefly, so here I am with another video about the same sport.
+
+She speaks how she beat women, and men, in this discipline.
+The dive takes 3:30 minutes to 4:00 minutes.
+She speaks about the "packing" technique, and how this led her to black out.
+Narcosis still affects freedivers because of the rapid rate of descent and the extreme depths they go to. 
+
+She then speaks about what happened with her daughter being born.
+
+Then moves on talking about plastic and the sea, and about giving back to it. Referencing a film called "Plastic Ocean". 
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=eXBZUee4EpY">How to Hold Your Breath Longer: a freediving tutorial from a professional freediver</a>
+</summary>
+Tips on how to hold your breath and getting good at it, introduces training tables (CO2 tables or O2 tables).
+Also explains how to get started towards the end of the video.
 </details>
 
 ### TDD
