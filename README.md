@@ -5,6 +5,7 @@ represent with sentences the parts I've found most interesting, you should skim 
 a feel if you could be interested too.
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
+ * [DIY](#diy)
  * [Functional programming](#functional-programming)
  * [Idris](#idris)
  * [Politics](#politics)
@@ -21,6 +22,15 @@ a feel if you could be interested too.
 This is a course held by prof Skiena, it's a regular university course so it's pretty long, I've liked it as it gave me
 some background on the matter, "some" because it's not an area I find particularly interesting, but if you do this might
 be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
+</details>
+
+### DIY
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=jFBmYS0tME4">Making a 5 Shots Assassin's Creed Style Wrist Crossbow | Shooting</a>
+</summary>
+
+I found the time lapse relaxing and full of little "ah-ha! that's how that's done!" moments.
 </details>
 
 ### Funtional programming
