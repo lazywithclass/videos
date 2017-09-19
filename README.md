@@ -9,7 +9,7 @@ a feel if you could be interested too.
  * [Functional programming](#functional-programming)
  * [Idris](#idris)
  * [Politics](#politics)
- * [Science](#science')
+ * [Science](#science)
  * [Sports](#sports)
  * [TDD](#tdd)
  * [The craft](#the-craft)
@@ -403,3 +403,31 @@ to affect them
  wind up in your code base and that's why static typing is so valuable because it cuts down on what can make it past 
 </details>
  
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey</a>
+</summary>
+
+Simple - one fold / braid
+Complex - combine together many things / braid them together
+Easy - to lie near, at hand
+
+Simple is about interleaving not cardinality: not one thing (ex interfaces with one function) but one role / task / concept / dimension.
+
+Elephant of complexity represents the difficulty in maintaining your code.
+
+Simplicity buys you opportunities, it dominates all other factors. 
+Once your project reaches a certain size the complexity elephant dominates all other techniques you might be using, tests, agile, nothing
+will help you pushing the elephant away.
+
+Pursuing simplicity is about pursuing opportunity.
+
+Examples of simplicity in context:
+
+ • order should not matter
+ • information is simple, don't put stuff around those, hashmaps are fine
+ • take approaches from sub systems architecture and use them into code
+ 
+Simplicity is a choice.
+Requires vigilance, sensibilities, and care. "Did we entangle anything yesterday？ Did we complect anything yesterday?".
+</details>
