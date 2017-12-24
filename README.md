@@ -8,8 +8,10 @@ a feel if you could be interested too.
  * [DIY](#diy)
  * [Functional programming](#functional-programming)
  * [Idris](#idris)
+ * [miniKanren](#minikanren)
  * [Politics](#politics)
  * [Science](#science)
+ * [Spacemacs](#spacemacs)
  * [Sports](#sports)
  * [TDD](#tdd)
  * [The craft](#the-craft)
@@ -39,8 +41,8 @@ I found the time lapse relaxing and full of little "ah-ha! that's how that's don
 <a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016</a>
 </summary>
 
-Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go. 
-It's an introductory talk if you're approaching functional programming and want to know what it is about, with some examples 
+Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go.
+It's an introductory talk if you're approaching functional programming and want to know what it is about, with some examples
 expecially on [map / reduce](https://youtu.be/e-5obm1G_FY?t=678) which instantly give you an idea.
 Tough croud though, didn't really reacted in any way.
 </details>
@@ -71,8 +73,8 @@ You could "summarise" it like so:
  * combining forms
  * simple laws
  * functions as representations
- 
-If you don't know what that means you're not alone, this is what I meant when I said that this talk gives 
+
+If you don't know what that means you're not alone, this is what I meant when I said that this talk gives
 you lots of resources to expand your knowledge.
 </details>
 
@@ -92,8 +94,8 @@ Why learning functional programming? Because simplicity allows to:
 Functional programming languages usually limit the power of the user, wink wink to Out Of The Tar Pit.
 In functional programming our state is exposed, if it's too complex, it's there as a parameter, so it's much easier
 to spot.
-Do everything you can without side effects, don't mutate variables, don't handle state (your state should be just in 
-the tests), compose your functions, then, once you're done introduce side effects. 
+Do everything you can without side effects, don't mutate variables, don't handle state (your state should be just in
+the tests), compose your functions, then, once you're done introduce side effects.
 So our business logic almost never depends on other libraries, while our side effects logic almost exclusively libraries
 so we don't have to run unit tests around them.
 He also introduces the concept of mob programming.
@@ -116,15 +118,15 @@ Types are not classes, they're just set of inputs and outputs to functions. A na
 Strive for totality: for every input there's a valid output.
 For example in a function that divides `12` by the given input you could do this in two ways to avoid division by zero, and the dilemma
 of having to throw exception or not:
- 
+
  * restrict the input with a type like `NonZeroInteger` that has all integers except `0`
  * extend the output to be optional (`Maybe` monad)
- 
+
 Parameterise all the things.
 
 I *loved* what follows, I really did, he basically started with interfaces, explained how they're a bit bloated and proposed types as substitutes.
 
-Function types are interfaces, if you add the Single Responsibility Principle (only one reason to change) and the Interface Segregation Principle 
+Function types are interfaces, if you add the Single Responsibility Principle (only one reason to change) and the Interface Segregation Principle
 (don't contaminate interfaces with too many things) and you take that a bit to the extreme you get interfaces with just one function. But an interface
 with a single function is just a funtion type, and any function that has the same signature is compatible with it, and you don't have to inherit anything,
 it's automatic synce they share the signature!
@@ -149,22 +151,21 @@ the result of an async call that returns a `Maybe`, most generic wrapped generic
 
 -- Edsger Dijkstra
 
-You don't want to have side effects buried in the code, pull them out separating them calling the side effect function elsewhere and pass 
+You don't want to have side effects buried in the code, pull them out separating them calling the side effect function elsewhere and pass
 the result.
 
 Functions should not depend on internal structure of data, pull out a new function that knows how to access fields in the data structure.
 
-Distinguish what you calculate and how you calculate that something, pull out the structure into one place. 
+Distinguish what you calculate and how you calculate that something, pull out the structure into one place.
 </details>
 
 ### Idris
-
 <details>
 <summary>
 <a href="https://www.youtube.com/watch?v=zSsCLnLS1hg">Dependent Types in the Idris Programming Language 1 - Edwin Brady - OPLSS 2017</a>
 </summary>
 
-Edwin introduces the concept of Type Driven Development, which he also explains in 
+Edwin introduces the concept of Type Driven Development, which he also explains in
 [Type Driven Development with Idris](https://www.manning.com/books/type-driven-development-with-idris); type define refine as opposed to
 red green refactor.
 
@@ -183,7 +184,7 @@ In type driven development you
 You coudl also search for a possibile implementation with the proper command.
 
 "Just because you have types doesn't mean you can't add more tests, and you should add more tests."
- 
+
 Look at type holes for hints on how to proceed.
 
 Build functions one bit at a time leveraging the compiler can help you with the types of your holes.
@@ -193,22 +194,58 @@ Lowercase letters in types are always implicitly bound.
 As soon as you have something a bit hard to do, make another function to do that harder thing.
 </details>
 
+
+### miniKanren
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=a5p8DPbaokE">miniKanren Intro Series #1 (2:06:25)</a>
+</summary>
+I think it's safe to say that if you know a Lisp you could skip this first video.
+
+miniKanren was originally written as an extension of Scheme, and allows for logic programming.
+
+There's also [microKanren](https://github.com/jasonhemann/microKanren/blob/master/microKanren.scm) which is
+a simplified version, 51 lines of Scheme!
+
+The point is to have a very small language, built around 3 or 4 operations, much like Chess or Go, and from
+there build new things and think about the system.
+
+William then names the most used Lisp dialects, talks about the benefits of macros, and briefly explains the
+history of Scheme and Racket.
+
+What follows is an explanation of the basics that could be found in a Lisp dialect, and later in Scheme.
+
+Meta circular interpreter, implementing Scheme in Scheme, is what we will do later on in this series.
+
+`list?` is pronounced as "list-uh?".
+
+One thing he pointed out is that you could have something like
+
+```scheme
+(cond
+  [(= 1 0) 'a]
+  [(= 0 0) 'b])
+```
+
+to highlight the clauses.
+</details>
+
 ### Politics
 <details>
 <summary>
 <a href="">Noam Chomsky on Democracy Now! April 4, 2017 (FULL Interview)</a>
 </summary>
 
-I love how Chomsky talks about what he calls the two tiered system: Bannon-Trump team dominates the headlines, 
+I love how Chomsky talks about what he calls the two tiered system: Bannon-Trump team dominates the headlines,
 so whatever they do that's what people look at, one crazy thing after the other make the headlines, and by the time
 the new one arrived the old one is forgotten. And while this goes away things like the EPA slash could be safely
 made behind the covers.
 
 They proceed talking about Russia interfering with US elections, the Russian border, and North Korea tensions.
 
-"Why are they developing nuclear weapons? It's a deterrent." North Korea will terminate its further development 
-of nuclear weapons, in return the US should stop threatening maneuvers on the border. 
-"If the US did decide to use force against North Korea, [...] Seul (confused) be wiped out by mass North Korean artillery". 
+"Why are they developing nuclear weapons? It's a deterrent." North Korea will terminate its further development
+of nuclear weapons, in return the US should stop threatening maneuvers on the border.
+"If the US did decide to use force against North Korea, [...] Seul (confused) be wiped out by mass North Korean artillery".
 
 Nort Korea was destroyed by the most intensive bombing in history, they flattened the country, leaving no targets left.
 Then they attacked the dams, which is a war crime of course. [On the subject](https://en.wikipedia.org/wiki/Attack_on_the_Sui-ho_Dam)
@@ -218,17 +255,17 @@ Doomsday clock set at 2min 30sec.
 Nuclear weapons and Global Warming both are questions of survival and should be the main focus of attention, every Republican candidate
 through the election either denied or said we shouldn't do anything about it.
 
-The Sanders achievement, usually "You can pretty well predict electoral outcomes simply by campaign funding alone", is remarkable 
+The Sanders achievement, usually "You can pretty well predict electoral outcomes simply by campaign funding alone", is remarkable
 as it represents what could happen if just policies are presented, which meet the concerns of the population.
 
 Trump is not going to bring back jobs, what happens then? Something has to be made to maintain control, so scape goating could be an option,
 then an alledged terrorist attack, or a staged attack of minor kind. "It's very easy to terrify people".
 
 Iran has very low military spending, even compared to the region standard (Saudi Arabia, Israel, ...) they want to deter attacks.
-If they are developing nuclear weeapons is for their deterred strategy. 
+If they are developing nuclear weeapons is for their deterred strategy.
 "Who's concerned about a deterred? Those who want to use force. [...] So yes Iran is the greatest threat to world peace".
 
-Mortality is increasing amongst low and middle class working class middle aged white americans, that's something unknown in developed 
+Mortality is increasing amongst low and middle class working class middle aged white americans, that's something unknown in developed
 society, it's something called Disease of Despair: there is no feeling of hope in the future or sense of dignity.
 </details>
 
@@ -242,18 +279,18 @@ society, it's something called Disease of Despair: there is no feeling of hope i
 "For we are deeply in need of a new way beyond the darkness that seems so close around us", this is so in line with what's happening these days
 (early September 2017) between North Korea and US (again).
 
-"And I knew that America would never invest the necessary funds or energies in rehabilitation of its poor so long as adventures like 
-Vietnam continued to draw men and skills and money like some demonic, destructive suction tube. So I was increasingly compelled to see the war 
+"And I knew that America would never invest the necessary funds or energies in rehabilitation of its poor so long as adventures like
+Vietnam continued to draw men and skills and money like some demonic, destructive suction tube. So I was increasingly compelled to see the war
 as an enemy of the poor and to attack it as such." which is the same thing one asks themself when questioning Trump's actions these days, is being
 so belligerant going to help Americans? Is being openly hostile towards people near US south border going to be any good in the long term?
 
-"So we have been repeatedly faced with the cruel irony of watching Negro and white boys on TV screens as they kill and die together for a nation that has 
-been unable to seat them together in the same schools. So we watch them in brutal solidarity burning the huts of a poor village, but we realize that 
+"So we have been repeatedly faced with the cruel irony of watching Negro and white boys on TV screens as they kill and die together for a nation that has
+been unable to seat them together in the same schools. So we watch them in brutal solidarity burning the huts of a poor village, but we realize that
 they would hardly live on the same block in Chicago. I could not be silent in the face of such cruel manipulation of the poor."
 
 "Those who make peaceful revolution impossible will make violent revolution inevitable." John F. Kennedy.
 
-"One day we must come to see that the whole Jericho Road must be transformed so that men and women will not be constantly beaten and robbed as 
+"One day we must come to see that the whole Jericho Road must be transformed so that men and women will not be constantly beaten and robbed as
 they make their journey on life’s highway. True compassion is more than flinging a coin to a beggar. It comes to see than an edifice which produces
 beggars needs restructuring".
 </details>
@@ -264,8 +301,8 @@ beggars needs restructuring".
 <a href="https://www.netflix.com/watch/80004601">Cosmos - A Spacetime Odyssey</a>
 </summary>
 
-From Neil Degrasse Tyson, I love the series. It's not fun-oriented but they keep it interesting at every episode. Also 
-Neil's voice is pretty calming. 
+From Neil Degrasse Tyson, I love the series. It's not fun-oriented but they keep it interesting at every episode. Also
+Neil's voice is pretty calming.
 </details>
 
 <details>
@@ -275,7 +312,7 @@ Neil's voice is pretty calming.
 
 I am not sure why I watched this video, I think the title and the fact that it looked sciency prompted me to.
 I didn't get most of it, but it's fascinating listening to someone talking about their craft.
-It's particularly fascinating how he describes a black hole as seen by an external viewer, picturing it as 
+It's particularly fascinating how he describes a black hole as seen by an external viewer, picturing it as
 layers and layers of sediments consisting of things that got attracted and never made it past the even horizon; and also
 how it takes a finite amount of time to fall through the horizon for an in flowing observer and an infinite amount of
 time as seen by the outside.
@@ -294,6 +331,29 @@ interesting things are clear without turning to Wikipedia, for example that the 
 A clear explanation of seasons and leap day could be found in the video, but it's really the introduction of the Gregorian calendar
 that seemed really interesting.
 Phenomenal closing though about "THE ride of your life".
+</details>
+
+### Spacemacs
+<details>
+<summary>
+<a href="">C_C++ in Spacemacs</a>
+</summary>
+
+I watched this video because I want to understand what the start of the art is when coding C++ in Spacemacs.
+
+The tip to use C-u to speed up compile time looks great.
+
+Indentation wise he speaks about cstyles, `C-c ,` asks for a style. He goes a lot talking about indentation, since
+the team I'm in has its own, or I'm not sure which major one they adhere to, I just moved fast through this section.
+
+For autocompletion there's clang, the de facto standard, which could easily be enabled in Spacemacs.
+
+He skipped debugging and ctags, which I would've loved to hear about though.
+
+NOTES FOR SELF:
+ * command to compile
+ * with c-u you can have more processes to compile, maybe use that to speed up compile time?
+ * autocompletion is not working in your conf, check it
 </details>
 
 ### Sports
@@ -319,11 +379,11 @@ I got to know after that, where Tanya appears briefly, so here I am with another
 She speaks how she beat women, and men, in this discipline.
 The dive takes 3:30 minutes to 4:00 minutes.
 She speaks about the "packing" technique, and how this led her to black out.
-Narcosis still affects freedivers because of the rapid rate of descent and the extreme depths they go to. 
+Narcosis still affects freedivers because of the rapid rate of descent and the extreme depths they go to.
 
 She then speaks about what happened with her daughter being born.
 
-Then moves on talking about plastic and the sea, and about giving back to it. Referencing a film called "Plastic Ocean". 
+Then moves on talking about plastic and the sea, and about giving back to it. Referencing a film called "Plastic Ocean".
 </details>
 
 <details>
@@ -348,9 +408,9 @@ Which means you have to write the test first.
 
  * You are not allowed to write any any more of a unit test than is sufficient to fail; ad compilation failures are failures
  * You are not allowed to write any any more production code than is sufficient to pass the one failing unit test
- 
+
 Unit tests as examples of how your code works.
-If you write the tests first it's impossible to write a function that's hard to test, functions are written to be easy to test. 
+If you write the tests first it's impossible to write a function that's hard to test, functions are written to be easy to test.
 The goal of TDD is to create a test suite such that when it passes you can deploy.
 A reliable test suite that passes allows you to make decisions.
 
@@ -379,8 +439,8 @@ Our advancement since 1945 is almost entirely about what not to do than what to 
  * structured programming: don't use unrestrained GOTO
  * functional programming: don't use assignment
  * object programming: don't use pointers to functions
- 
-The last 15-20 minutes are particularly interesting, where Bob Martin explains how "we kill people" 
+
+The last 15-20 minutes are particularly interesting, where Bob Martin explains how "we kill people"
 and how "we rule the world", and what we could do to limit problems.
 </details>
 
@@ -394,15 +454,15 @@ John Carmack talks about a few concepts, particularly interesting for me were
  * functional programming - functional style allows for self contained code, because it's all about passing something
  in and getting something out, the advanteges of writing code in pure form are a big win especially in the long term
  * Haskell - brutal purity of Haskell [...] multi paradigm as if its a good thing, but it means you could always
-do the bad thing if you feel you really need to, and programmers are extremely bad at doing sort of the time 
+do the bad thing if you feel you really need to, and programmers are extremely bad at doing sort of the time
 scale integration of the cost of doing something that they know is negative [...] how many times this little bad thing is going
 to affect them
  * Lisp
  * Scheme
- * strong and weak typing - everything that's syntactically legal, and the compiler will accept, will eventually 
- wind up in your code base and that's why static typing is so valuable because it cuts down on what can make it past 
+ * strong and weak typing - everything that's syntactically legal, and the compiler will accept, will eventually
+ wind up in your code base and that's why static typing is so valuable because it cuts down on what can make it past
 </details>
- 
+
 <details>
 <summary>
 <a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey</a>
@@ -416,7 +476,7 @@ Simple is about interleaving not cardinality: not one thing (ex interfaces with 
 
 Elephant of complexity represents the difficulty in maintaining your code.
 
-Simplicity buys you opportunities, it dominates all other factors. 
+Simplicity buys you opportunities, it dominates all other factors.
 Once your project reaches a certain size the complexity elephant dominates all other techniques you might be using, tests, agile, nothing
 will help you pushing the elephant away.
 
@@ -427,7 +487,7 @@ Examples of simplicity in context:
  • order should not matter
  • information is simple, don't put stuff around those, hashmaps are fine
  • take approaches from sub systems architecture and use them into code
- 
+
 Simplicity is a choice.
 Requires vigilance, sensibilities, and care. "Did we entangle anything yesterday？ Did we complect anything yesterday?".
 </details>
