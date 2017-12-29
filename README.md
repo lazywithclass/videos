@@ -1,8 +1,7 @@
-## Scripts to download youtube videos, plus the videos I watch
+## Videos I watched, plus a few scripts
 
-You will find notes under the videos (click the ▶), don't expect those to be complete or too accurate, they just
-represent with sentences the parts I've found most interesting, you should skim through those and get
-a feel if you could be interested too.
+You will find notes under the videos (click the ▶), event though succint and sometimes incomplete they
+represent the parts I've found most interesting.
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [DIY](#diy)
@@ -29,7 +28,7 @@ be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
 ### DIY
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=jFBmYS0tME4">Making a 5 Shots Assassin's Creed Style Wrist Crossbow | Shooting</a>
+<a href="https://www.youtube.com/watch?v=jFBmYS0tME4">Making a 5 Shots Assassin's Creed Style Wrist Crossbow | Shooting (21:17)</a>
 </summary>
 
 I found the time lapse relaxing and full of little "ah-ha! that's how that's done!" moments.
@@ -38,7 +37,7 @@ I found the time lapse relaxing and full of little "ah-ha! that's how that's don
 ### Funtional programming
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016</a>
+<a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016 (29:56)</a>
 </summary>
 
 Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go.
@@ -49,7 +48,7 @@ Tough croud though, didn't really reacted in any way.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=Wo0qiGPSV-s">Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017</a>
+<a href="https://www.youtube.com/watch?v=Wo0qiGPSV-s">Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017 (26:32)</a>
 </summary>
 
 Because I've watched the previous one, and because she has the funny approach that reminds me so much of other
@@ -60,7 +59,7 @@ Doesn't explain why though.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=1qBHf8DrWR8">Keynote - Why Functional Programming Matters - John Hughes, Mary Sheeran (Lambda Days 2017)</a>
+<a href="https://www.youtube.com/watch?v=1qBHf8DrWR8">Keynote - Why Functional Programming Matters - John Hughes, Mary Sheeran (Lambda Days 2017) (1:03:01)</a>
 </summary>
 
 This is one of those talks that give you lots of resources to expand the subject.
