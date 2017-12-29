@@ -387,7 +387,7 @@ Then moves on talking about plastic and the sea, and about giving back to it. Re
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=eXBZUee4EpY">How to Hold Your Breath Longer: a freediving tutorial from a professional freediver</a>
+<a href="https://www.youtube.com/watch?v=eXBZUee4EpY">How to Hold Your Breath Longer: a freediving tutorial from a professional freediver (10:20)</a>
 </summary>
 Tips on how to hold your breath and getting good at it, introduces training tables (CO2 tables or O2 tables).
 Also explains how to get started towards the end of the video.
