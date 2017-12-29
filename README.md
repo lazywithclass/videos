@@ -144,7 +144,7 @@ the result of an async call that returns a `Maybe`, most generic wrapped generic
 
 <details>
 <summary>
-<a href="">Clojure Remote - The Elements of a Functional Mindset (Eric Normand)</a>
+<a href="https://www.youtube.com/watch?v=9g5eWJ16Oeo">Clojure Remote - The Elements of a Functional Mindset (Eric Normand) (43:51)</a>
 </summary>
 "The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise."
 
@@ -232,7 +232,7 @@ to highlight the clauses.
 ### Politics
 <details>
 <summary>
-<a href="">Noam Chomsky on Democracy Now! April 4, 2017 (FULL Interview)</a>
+<a href="https://www.youtube.com/watch?v=AOz1-5do49o">Noam Chomsky on Democracy Now! April 4, 2017 (FULL Interview) (1:11:42)</a>
 </summary>
 
 I love how Chomsky talks about what he calls the two tiered system: Bannon-Trump team dominates the headlines,
@@ -335,7 +335,7 @@ Phenomenal closing though about "THE ride of your life".
 ### Spacemacs
 <details>
 <summary>
-<a href="">C_C++ in Spacemacs</a>
+<a href="https://www.youtube.com/watch?v=OjbkCEkboA8">C_C++ in Spacemacs (40:22)</a>
 </summary>
 
 I watched this video because I want to understand what the start of the art is when coding C++ in Spacemacs.
