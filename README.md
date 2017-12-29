@@ -103,7 +103,7 @@ I feel there's lots of wisdom pearls in how to manage a team.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=E8I19uA-wGY">Functional programming design patterns by Scott Wlaschin</a>
+<a href="https://www.youtube.com/watch?v=E8I19uA-wGY">Functional programming design patterns by Scott Wlaschin (1:05:43)</a>
 </summary>
 
 Whirlwind tour at high speed of several concepts.
@@ -161,7 +161,7 @@ Distinguish what you calculate and how you calculate that something, pull out th
 ### Idris
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=zSsCLnLS1hg">Dependent Types in the Idris Programming Language 1 - Edwin Brady - OPLSS 2017</a>
+<a href="https://www.youtube.com/watch?v=zSsCLnLS1hg">Dependent Types in the Idris Programming Language 1 - Edwin Brady - OPLSS 2017 (1:17:25)</a>
 </summary>
 
 Edwin introduces the concept of Type Driven Development, which he also explains in
@@ -306,7 +306,7 @@ Neil's voice is pretty calming.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=yMRYZMv0jRE">Inside Black Holes | Leonard Susskind</a>
+<a href="https://www.youtube.com/watch?v=yMRYZMv0jRE">Inside Black Holes | Leonard Susskind (1:10:32)</a>
 </summary>
 
 I am not sure why I watched this video, I think the title and the fact that it looked sciency prompted me to.
@@ -322,7 +322,7 @@ which sounds amazing.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=IJhgZBn-LHg">How Earth Moves</a>
+<a href="https://www.youtube.com/watch?v=IJhgZBn-LHg">How Earth Moves (21:37)</a>
 </summary>
 
 Micheal (VSauce) explains the difference between a sidereal day and a solar day; this video is packed of information but a few
@@ -359,7 +359,7 @@ NOTES FOR SELF:
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=IDbmG5KFnqc">Guillaume Néry: The exhilarating peace of freediving</a>
+<a href="https://www.youtube.com/watch?v=IDbmG5KFnqc">Guillaume Néry: The exhilarating peace of freediving (19:14)</a>
 </summary>
 
 A poetic view of what both body and mind experience during a freedive towards 123 meters below the surface.
@@ -370,7 +370,7 @@ Give a few insights on how a freediver prepares for the descent and what they ex
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=odIXWv1m2a8">Tanya Streeter | TEDxAustin 2012</a>
+<a href="https://www.youtube.com/watch?v=odIXWv1m2a8">Tanya Streeter | TEDxAustin 2012 (16:58)</a>
 </summary>
 I was fascinated by the previous one and impressed by the story of [Audrey Mestre](https://en.wikipedia.org/wiki/Audrey_Mestre)
 I got to know after that, where Tanya appears briefly, so here I am with another video about the same sport.
@@ -396,7 +396,7 @@ Also explains how to get started towards the end of the video.
 ### TDD
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=AoIfc5NwRks">The Three Laws of TDD</a>
+<a href="https://www.youtube.com/watch?v=AoIfc5NwRks">The Three Laws of TDD (1:06:08)</a>
 </summary>
 
 It's an introduction to TDD, with some theory and some examples on how to use it.
@@ -419,7 +419,7 @@ TDD is a way to incrementally derive solutions to problems.
 ### The craft
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=ecIWPzGEbFc">'Uncle' Bob Martin - 'The Future of Programming'</a>
+<a href="https://www.youtube.com/watch?v=ecIWPzGEbFc">'Uncle' Bob Martin - 'The Future of Programming' (1:18:20)</a>
 </summary>
 
 "Why is it that we programmers are never happy with our language?"
@@ -445,7 +445,7 @@ and how "we rule the world", and what we could do to limit problems.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=1PhArSujR_A">John Carmack's keynote at Quakecon 2013 part 4</a>
+<a href="https://www.youtube.com/watch?v=1PhArSujR_A">John Carmack's keynote at Quakecon 2013 part 4 (29:59)</a>
 </summary>
 
 John Carmack talks about a few concepts, particularly interesting for me were
@@ -464,7 +464,7 @@ to affect them
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey</a>
+<a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey (36:52)</a>
 </summary>
 
 Simple - one fold / braid
