@@ -1,8 +1,7 @@
-## Scripts to download youtube videos, plus the videos I watch
+## Videos I watched, plus a few scripts
 
-You will find notes under the videos (click the ▶), don't expect those to be complete or too accurate, they just
-represent with sentences the parts I've found most interesting, you should skim through those and get
-a feel if you could be interested too.
+You will find notes under the videos (click the ▶), event though succint and sometimes incomplete they
+represent the parts I've found most interesting.
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [DIY](#diy)
@@ -29,7 +28,7 @@ be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
 ### DIY
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=jFBmYS0tME4">Making a 5 Shots Assassin's Creed Style Wrist Crossbow | Shooting</a>
+<a href="https://www.youtube.com/watch?v=jFBmYS0tME4">Making a 5 Shots Assassin's Creed Style Wrist Crossbow | Shooting (21:17)</a>
 </summary>
 
 I found the time lapse relaxing and full of little "ah-ha! that's how that's done!" moments.
@@ -38,7 +37,7 @@ I found the time lapse relaxing and full of little "ah-ha! that's how that's don
 ### Funtional programming
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016</a>
+<a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016 (29:56)</a>
 </summary>
 
 Anjana went to the [Recurse Center](https://www.recurse.com/) as me, this was already interesting enough to give her talk a go.
@@ -49,7 +48,7 @@ Tough croud though, didn't really reacted in any way.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=Wo0qiGPSV-s">Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017</a>
+<a href="https://www.youtube.com/watch?v=Wo0qiGPSV-s">Anjana Vakil - Immutable data structures for functional JS _ JSConf EU 2017 (26:32)</a>
 </summary>
 
 Because I've watched the previous one, and because she has the funny approach that reminds me so much of other
@@ -60,7 +59,7 @@ Doesn't explain why though.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=1qBHf8DrWR8">Keynote - Why Functional Programming Matters - John Hughes, Mary Sheeran (Lambda Days 2017)</a>
+<a href="https://www.youtube.com/watch?v=1qBHf8DrWR8">Keynote - Why Functional Programming Matters - John Hughes, Mary Sheeran (Lambda Days 2017) (1:03:01)</a>
 </summary>
 
 This is one of those talks that give you lots of resources to expand the subject.
@@ -104,7 +103,7 @@ I feel there's lots of wisdom pearls in how to manage a team.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=E8I19uA-wGY">Functional programming design patterns by Scott Wlaschin</a>
+<a href="https://www.youtube.com/watch?v=E8I19uA-wGY">Functional programming design patterns by Scott Wlaschin (1:05:43)</a>
 </summary>
 
 Whirlwind tour at high speed of several concepts.
@@ -145,7 +144,7 @@ the result of an async call that returns a `Maybe`, most generic wrapped generic
 
 <details>
 <summary>
-<a href="">Clojure Remote - The Elements of a Functional Mindset (Eric Normand)</a>
+<a href="https://www.youtube.com/watch?v=9g5eWJ16Oeo">Clojure Remote - The Elements of a Functional Mindset (Eric Normand) (43:51)</a>
 </summary>
 "The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise."
 
@@ -162,7 +161,7 @@ Distinguish what you calculate and how you calculate that something, pull out th
 ### Idris
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=zSsCLnLS1hg">Dependent Types in the Idris Programming Language 1 - Edwin Brady - OPLSS 2017</a>
+<a href="https://www.youtube.com/watch?v=zSsCLnLS1hg">Dependent Types in the Idris Programming Language 1 - Edwin Brady - OPLSS 2017 (1:17:25)</a>
 </summary>
 
 Edwin introduces the concept of Type Driven Development, which he also explains in
@@ -285,7 +284,7 @@ Small introduction to lambda calculus closes the video.
 ### Politics
 <details>
 <summary>
-<a href="">Noam Chomsky on Democracy Now! April 4, 2017 (FULL Interview)</a>
+<a href="https://www.youtube.com/watch?v=AOz1-5do49o">Noam Chomsky on Democracy Now! April 4, 2017 (FULL Interview) (1:11:42)</a>
 </summary>
 
 I love how Chomsky talks about what he calls the two tiered system: Bannon-Trump team dominates the headlines,
@@ -359,7 +358,7 @@ Neil's voice is pretty calming.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=yMRYZMv0jRE">Inside Black Holes | Leonard Susskind</a>
+<a href="https://www.youtube.com/watch?v=yMRYZMv0jRE">Inside Black Holes | Leonard Susskind (1:10:32)</a>
 </summary>
 
 I am not sure why I watched this video, I think the title and the fact that it looked sciency prompted me to.
@@ -375,7 +374,7 @@ which sounds amazing.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=IJhgZBn-LHg">How Earth Moves</a>
+<a href="https://www.youtube.com/watch?v=IJhgZBn-LHg">How Earth Moves (21:37)</a>
 </summary>
 
 Micheal (VSauce) explains the difference between a sidereal day and a solar day; this video is packed of information but a few
@@ -388,7 +387,7 @@ Phenomenal closing though about "THE ride of your life".
 ### Spacemacs
 <details>
 <summary>
-<a href="">C_C++ in Spacemacs</a>
+<a href="https://www.youtube.com/watch?v=OjbkCEkboA8">C_C++ in Spacemacs (40:22)</a>
 </summary>
 
 I watched this video because I want to understand what the start of the art is when coding C++ in Spacemacs.
@@ -412,7 +411,7 @@ NOTES FOR SELF:
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=IDbmG5KFnqc">Guillaume Néry: The exhilarating peace of freediving</a>
+<a href="https://www.youtube.com/watch?v=IDbmG5KFnqc">Guillaume Néry: The exhilarating peace of freediving (19:14)</a>
 </summary>
 
 A poetic view of what both body and mind experience during a freedive towards 123 meters below the surface.
@@ -423,7 +422,7 @@ Give a few insights on how a freediver prepares for the descent and what they ex
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=odIXWv1m2a8">Tanya Streeter | TEDxAustin 2012</a>
+<a href="https://www.youtube.com/watch?v=odIXWv1m2a8">Tanya Streeter | TEDxAustin 2012 (16:58)</a>
 </summary>
 I was fascinated by the previous one and impressed by the story of [Audrey Mestre](https://en.wikipedia.org/wiki/Audrey_Mestre)
 I got to know after that, where Tanya appears briefly, so here I am with another video about the same sport.
@@ -440,7 +439,7 @@ Then moves on talking about plastic and the sea, and about giving back to it. Re
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=eXBZUee4EpY">How to Hold Your Breath Longer: a freediving tutorial from a professional freediver</a>
+<a href="https://www.youtube.com/watch?v=eXBZUee4EpY">How to Hold Your Breath Longer: a freediving tutorial from a professional freediver (10:20)</a>
 </summary>
 Tips on how to hold your breath and getting good at it, introduces training tables (CO2 tables or O2 tables).
 Also explains how to get started towards the end of the video.
@@ -449,7 +448,7 @@ Also explains how to get started towards the end of the video.
 ### TDD
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=AoIfc5NwRks">The Three Laws of TDD</a>
+<a href="https://www.youtube.com/watch?v=AoIfc5NwRks">The Three Laws of TDD (1:06:08)</a>
 </summary>
 
 It's an introduction to TDD, with some theory and some examples on how to use it.
@@ -472,7 +471,7 @@ TDD is a way to incrementally derive solutions to problems.
 ### The craft
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=ecIWPzGEbFc">'Uncle' Bob Martin - 'The Future of Programming'</a>
+<a href="https://www.youtube.com/watch?v=ecIWPzGEbFc">'Uncle' Bob Martin - 'The Future of Programming' (1:18:20)</a>
 </summary>
 
 "Why is it that we programmers are never happy with our language?"
@@ -498,7 +497,7 @@ and how "we rule the world", and what we could do to limit problems.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=1PhArSujR_A">John Carmack's keynote at Quakecon 2013 part 4</a>
+<a href="https://www.youtube.com/watch?v=1PhArSujR_A">John Carmack's keynote at Quakecon 2013 part 4 (29:59)</a>
 </summary>
 
 John Carmack talks about a few concepts, particularly interesting for me were
@@ -517,7 +516,7 @@ to affect them
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey</a>
+<a href="https://www.youtube.com/watch?v=rI8tNMsozo0">Rails Conf 2012 Keynote: Simplicity Matters by Rich Hickey (36:52)</a>
 </summary>
 
 Simple - one fold / braid
