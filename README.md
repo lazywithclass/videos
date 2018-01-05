@@ -230,6 +230,58 @@ One thing he pointed out is that you could have something like
 to highlight the clauses.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=s8d8uhU-_SY">miniKanren Intro Series #2 (02:27:09)</a>
+</summary>
+
+If you went through [The Little Schemer](https://www.amazon.com/Little-Schemer-Daniel-P-Friedman/dp/0262560992) you're going to remember
+some of the examples he makes.
+
+Building up recursive functions following test cases is a helpful technique to help
+yourself when your're stuck not really knowing how you're going to build up the
+result, for example in `member` you could use
+
+```scheme
+(member 'x '()) ;; #f
+(member 'x '(a x f x g)) ;; #t
+(member 'foo '(a foo g)) ;; #t
+```
+
+and then build from there the base case (first line), the case in which you've found a thing you were looking
+for (second line), and the recursive step or else (third line).
+As William said earlier you could even pretend you have your function (whishful thinking) and then use
+it to fill the gaps, only to go back later to actually code it, in the videos he names such functions as
+`dans-member` if, for example, he was midway coding `member`; it's called `dans-` as in Dan's referring to
+[Daniel Friedman](https://en.wikipedia.org/wiki/Daniel_P._Friedman).
+
+He then talks about `map` and `filter`.
+
+The discussion then changes to quotation, so:
+ * quote `'`
+ * quasiquote ``\`
+ * unquote `,`
+ * unquote-splicing `,@`
+
+Another interesting point he makes is that
+
+```scheme
+(let ((x 7))
+x)
+```
+
+is the same as
+
+```scheme
+((lambda (x) x)
+  7)
+```
+
+Macros and `define-syntax` are next.
+
+Small introduction to lambda calculus closes the video.
+</details>
+
 ### Politics
 <details>
 <summary>
