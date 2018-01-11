@@ -542,3 +542,24 @@ Examples of simplicity in context:
 Simplicity is a choice.
 Requires vigilance, sensibilities, and care. "Did we entangle anything yesterday？ Did we complect anything yesterday?".
 </details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=2UJ5t2116lI">Mark Allen - The Sharp Edges of Leaky Abstraction (37:26)</a>
+</summary>
+[The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/) by Joel Spolsky
+mentioned in the video.
+  
+When is an abstraction leaking? What does it mean?
+  
+> Exposing internals.
+
+> An example: a specification which is short and understandable but doesn't completely describe the behaviour of 
+> the software, and then you have a more complex one which "in this particular case it doesn't work like that", you have to
+> do extra things to fix it up. 
+> When you have these two, and you want the simplest one but the second one is the one that's implemented that's the leak.
+
+[Here's the moment in the video where this is explained](https://youtu.be/2UJ5t2116lI?t=615).
+
+What things cause us to create leaky abstractions?
+</details>
