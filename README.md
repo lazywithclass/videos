@@ -547,6 +547,7 @@ Requires vigilance, sensibilities, and care. "Did we entangle anything yesterday
 <summary>
 <a href="https://www.youtube.com/watch?v=2UJ5t2116lI">Mark Allen - The Sharp Edges of Leaky Abstraction (37:26)</a>
 </summary>
+  
 [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/) by Joel Spolsky
 mentioned in the video.
   
