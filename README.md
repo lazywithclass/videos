@@ -1,7 +1,7 @@
 ## Videos I find interesting, plus bonus scripts!
 
 Topics differ a lot, whatever captures my attention ends up here. Notes are written by me (click the ▶ to see them),
-usually they sum up video contents, have a look to get a eagle eye view. 
+usually they sum up video contents, have a look to get a eagle eye view.
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [DIY](#diy)
@@ -160,7 +160,7 @@ Distinguish what you calculate and how you calculate that something, pull out th
 
 <details>
 <summary>
-<a href="https://soundcloud.com/lambda-cast/1-overview-of-functional-programming">1: Overview Of Functional Programming (1:13:36)</a>
+<a href="https://soundcloud.com/lambda-cast/1-overview-of-functional-programming">LambdaCast 1: Overview Of Functional Programming (1:13:36)</a>
 </summary>
 
 The panelists go through the basics of functional programming explaining how they apply to real problems using
