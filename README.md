@@ -158,6 +158,24 @@ Functions should not depend on internal structure of data, pull out a new functi
 Distinguish what you calculate and how you calculate that something, pull out the structure into one place.
 </details>
 
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/1-overview-of-functional-programming">1: Overview Of Functional Programming (1:13:36)</a>
+</summary>
+
+The panelists go through the basics of functional programming explaining how they apply to real problems using
+building blocks offered the paradigm:
+
+ * immutability
+ * higher order functions
+ * purity
+ * functions as first class citizens
+ * etc
+
+I liked the general idea of having more experienced people on the podcast, along with people that just started looking
+into functional programming, that helps a lot in cover those things that might be take as granted when they shouldn't.
+</details>
+
 ### Idris
 <details>
 <summary>
@@ -547,20 +565,35 @@ Requires vigilance, sensibilities, and care. "Did we entangle anything yesterday
 <summary>
 <a href="https://www.youtube.com/watch?v=2UJ5t2116lI">Mark Allen - The Sharp Edges of Leaky Abstraction (37:26)</a>
 </summary>
-  
+
 [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/) by Joel Spolsky
 mentioned in the video.
-  
+
 When is an abstraction leaking? What does it mean?
-  
+
 > Exposing internals.
 
-> An example: a specification which is short and understandable but doesn't completely describe the behaviour of 
+> An example: a specification which is short and understandable but doesn't completely describe the behaviour of
 > the software, and then you have a more complex one which "in this particular case it doesn't work like that", you have to
-> do extra things to fix it up. 
+> do extra things to fix it up.
 > When you have these two, and you want the simplest one but the second one is the one that's implemented that's the leak.
 
 [Here's the moment in the video where this is explained](https://youtu.be/2UJ5t2116lI?t=615).
 
 What things cause us to create leaky abstractions?
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=SdUewLCHWvU">GOTO 2017 • A Crystal Ball to Prioritize Technical Debt • Adam Tornhill (50:09)</a>
+</summary>
+
+Adam proposes a way to decide when and where to tackle technical debt. He talks about how git, thanks to its informations about
+code changes over time, can point the developer to where an action is mostly needed.
+
+[Here](https://www.youtube.com/watch?v=SdUewLCHWvU&feature=youtu.be&t=612) he shows an interesting pattern shared by three
+radically different codebases.
+
+He then speaks about [normalization of deviance](https://en.wikipedia.org/wiki/Normalization_%28sociology%29), or how people come
+to accept what they experience in their every day lives.
 </details>
