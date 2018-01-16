@@ -1,7 +1,7 @@
-## Videos I watched, plus a few scripts
+## Videos I find interesting, plus bonus scripts!
 
-You will find notes under the videos (click the ▶), event though succint and sometimes incomplete they
-represent the parts I've found most interesting.
+Topics differ a lot, whatever captures my attention ends up here. Notes are written by me (click the ▶ to see them),
+usually they sum up video contents, have a look to get a eagle eye view. 
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [DIY](#diy)
