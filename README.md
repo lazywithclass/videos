@@ -192,7 +192,7 @@ Variables are such in a math sense.
 </details>
 <details>
 <summary>
-<a href="https://soundcloud.com/lambda-cast/3-why-fp">LambdaCast 3: Why FP?</a>
+<a href="https://soundcloud.com/lambda-cast/3-why-fp">LambdaCast 3: Why FP? (1:31:14)</a>
 </summary>
 
 `null` presence considered a smell.
@@ -206,7 +206,7 @@ Good function: isolated, doing one thing, testable. Impure functions should have
 </details>
 <details>
 <summary>
-<a href="https://soundcloud.com/lambda-cast/4-higher-order-functions">LambdaCast 4: Higher-Order Functions</a>
+<a href="https://soundcloud.com/lambda-cast/4-higher-order-functions">LambdaCast 4: Higher-Order Functions (48:39)</a>
 </summary>
 
 I don't have much to say here, all previous 3 episodes covered concepts I'm kind of familiar with...
