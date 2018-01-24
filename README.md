@@ -175,6 +175,44 @@ building blocks offered the paradigm:
 I liked the general idea of having more experienced people on the podcast, along with people that just started looking
 into functional programming, that helps a lot in cover those things that might be take as granted when they shouldn't.
 </details>
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/2-overview-of-functional-programming-part-2">LambdaCast 2: Overview of Functional Programming part 2 (1:40:40)</a>
+</summary>
+
+In the first 30 minutes or so the panelists finish the topics of the previous episode.
+
+A big part of the episode is about the ["Simple made easy"](https://www.youtube.com/watch?v=rI8tNMsozo0) talk from Rich Hickey,
+and how that relates to functional programming, for examples not having to think about side effects, not dealing with changing parameters,
+and so on. Pure functions, immutability, no side effects.
+
+Distinction between side effects and effects.
+
+Variables are such in a math sense.
+</details>
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/3-why-fp">LambdaCast 3: Why FP?</a>
+</summary>
+
+`null` presence considered a smell.
+
+All functions are a single expression in Haskell and PureScript, so whatever you have in the body that's returned from the function,
+and that's completely different from you have in other languages.
+
+Typesystems as a benefit and a friend rather than something you have to please to have your code work.
+
+Good function: isolated, doing one thing, testable. Impure functions should have a small as possible surface area.
+</details>
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/4-higher-order-functions">LambdaCast 4: Higher-Order Functions</a>
+</summary>
+
+I don't have much to say here, all previous 3 episodes covered concepts I'm kind of familiar with...
+I didn't manage to extract much information.
+</details>
+
 
 ### Idris
 <details>
