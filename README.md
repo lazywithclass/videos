@@ -212,6 +212,33 @@ Good function: isolated, doing one thing, testable. Impure functions should have
 I don't have much to say here, all previous 3 episodes covered concepts I'm kind of familiar with...
 I didn't manage to extract much information.
 </details>
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/4-higher-order-functions">LambdaCast 5: Immutability (59:38)</a>
+</summary>
+
+Referential transparency and explanation.
+
+Immutability as a solution to multi threaded problems (locking, shared resources, ...), `ref` in Clojure seems a good 
+approach to this problem.
+
+[Shallow copies and deep copies](https://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy).
+
+In immutable lists if you add elements to the head then you can keep on doing so without impacting 
+anyone else that have a reference to the previous elements of the list. This passage is at [37:20](https://soundcloud.com/lambda-cast/episode-5-immutability#t=37:20).
+
+So instead of "what does it mean to update and delete" we have "what does it mean to create a new state", we go from one 
+state to the other.
+</details>
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/4-higher-order-functions">LambdaCast 6: Null And Friends (49:19)</a>
+</summary>
+
+Introduction of `Maybe`, along with `Either`, to solve the `null` problem. The latter could also help to replace exceptions or 
+chain stuff with lots of `andThen`s. It basically lifts types to a higher state in which they could be used without worrying
+about them producing a `null`, because that's being taken care of.
+</details>
 
 
 ### Idris
