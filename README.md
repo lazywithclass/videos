@@ -82,7 +82,7 @@ you lots of resources to expand your knowledge.
 <a href="https://www.youtube.com/watch?v=bmFKEewRRQg">Rob Martin - Teaching functional programming to noobs in mobs (Lambda Days 2016)</a>
 </summary>
 
-Hire uniors. They inspire seniors to work better, they get trained and they can learn more than seniors usually do.
+Hire juniors. They inspire seniors to work better, they get trained and they can learn more than seniors usually do.
 Why learning functional programming? Because simplicity allows to:
 
  * reason about code
