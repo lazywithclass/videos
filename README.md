@@ -214,7 +214,7 @@ I didn't manage to extract much information.
 </details>
 <details>
 <summary>
-<a href="https://soundcloud.com/lambda-cast/4-higher-order-functions">LambdaCast 5: Immutability (59:38)</a>
+<a href="https://soundcloud.com/lambda-cast/episode-5-immutability">LambdaCast 5: Immutability (59:38)</a>
 </summary>
 
 Referential transparency and explanation.
@@ -232,7 +232,7 @@ state to the other.
 </details>
 <details>
 <summary>
-<a href="https://soundcloud.com/lambda-cast/4-higher-order-functions">LambdaCast 6: Null And Friends (49:19)</a>
+<a href="https://soundcloud.com/lambda-cast/6-null-and-friends">LambdaCast 6: Null And Friends (49:19)</a>
 </summary>
 
 Introduction of `Maybe`, along with `Either`, to solve the `null` problem. The latter could also help to replace exceptions or 
@@ -240,6 +240,32 @@ chain stuff with lots of `andThen`s. It basically lifts types to a higher state 
 about them producing a `null`, because that's being taken care of.
 </details>
 
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/7-recursion">LambdaCast 7: Recursion (43:45)</a>
+</summary>
+  
+In a recursive approach you just pass new objects each time, as opposed to what happens with the mutation that happens
+in a `for` loop for example.
+One downside could be that if you're not careful you could blow up the stack pretty easily.
+</details>
+  
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/8-morphisms">LambdaCast 8: Morphisms (43:09)</a>
+</summary>
+
+Cathegory theory is the explanation of why and how math works. "Math of math".
+A morhpism is a function that takes a type and gives back a type, all pure functions are morphisms
+
+ * endomorphism is a function that takes a type `A` and returns a type `A`
+ * isomorphism is a morphism that could be reversed, if you have `A` to `B` you could go back from `B` to `A`; it's more than 
+ just types, it's about the function inner structure, as some information could be loss when going in a direction. An example
+ could going from a `Float` to an `Int`: you can't go back as you've lost some information
+ * homomorphism does not change the struction of your thing
+ * catamorphism goes from an algebra to another algebra, where an algebra is the set of operations you can do with your thing,
+ an example is moving from logs to reports
+</details>
 
 ### Idris
 <details>
