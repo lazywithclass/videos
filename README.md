@@ -431,8 +431,10 @@ society, it's something called Disease of Despair: there is no feeling of hope i
 
 <details>
 <summary>
-<a href="http://kingencyclopedia.stanford.edu/encyclopedia/documentsentry/doc_beyond_vietnam/">Martin Luther King – Beyond Vietnam: A Time to Break Silence</a>
+<a href="http://kingencyclopedia.stanford.edu/encyclopedia/documentsentry/doc_beyond_vietnam/">Martin Luther King – Beyond Vietnam: A Time to Break Silence (56:37)</a>
 </summary>
+  
+The audio player found at the above link seems to work only on Chrome.
 
 "A time comes when silence is betrayal."
 
