@@ -267,6 +267,41 @@ A morhpism is a function that takes a type and gives back a type, all pure funct
  an example is moving from logs to reports
 </details>
 
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/9-polymorphism-and-abstraction">LambdaCast 9: Polymorphism And Abstraction (1:23:51)</a>
+</summary>
+
+Introducing [type parameters](https://www.reddit.com/r/haskellquestions/comments/60dlsv/type_parameters_in_haskell/).
+
+Introducing the concept of [lenses](https://docs.racket-lang.org/lens/index.html).
+
+"The more we know about the type, the less we know about the function; the less we know about the type, the more we know
+about the function".
+
+Let's say we have a `List Int -> Int`, what we can say about the function? Well, almost nothing, it can do a lot of things.
+This is what I think they meant with the previous sentence. They go through a few different function signatures asking
+"what can we tell about this function just by looking at the signature?", it's a powerful discussion that underlines
+the importance of having parameters as types.
+
+It's important to know that we know that when they say `f` of `a` `f` is not a function, it's a type; it's not `f(a)`.
+
+If we were to throw immutability and purity away we couldn't think about functions the same way just by looking at the types,
+just because we won't have the same constraints.
+
+Parametric polymorphism and polymorphism in object oriented are two separate concepts.
+
+Introduced the concept of functor, which they explained as something that you could `map` over. `f` is mappable is the same
+as `f` is a functor.
+
+Reusability of functions and polymoprhic types enable functions reuse, because the type is less specific.
+
+"The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise."
+
+-- Edsger Dijkstra
+</details>
+
+
 ### Idris
 <details>
 <summary>
