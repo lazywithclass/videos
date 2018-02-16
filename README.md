@@ -301,6 +301,28 @@ Reusability of functions and polymoprhic types enable functions reuse, because t
 -- Edsger Dijkstra
 </details>
 
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/10-partial-application">LambdaCast 10: Partial Application (1:09:51)</a>
+</summary>
+
+A function must be curried to be partially applied. In terms of parameter ordering you have what could configure the function 
+coming first, then in the last position you want the thing you will act upon, for example you could configure a function to
+save an array to the database, the first parameter could be the connection, the second the query, and probably the last
+will be the array.
+
+In languages like Haskell you see a function declared as `add :: Integer -> Integer -> Integer`, one might read it as
+"`add` is a function that takes two integers and return an integer", but what that actually means is "`add` is a function that
+takes an integer that returns a function that takes an integer that returns an integer".
+
+One could imagine a partially applied function as a screwdriver with a detachable head, so you have a function (the 
+ headless screwdriver) and then you have different heads you could attach to it (parameters) so it's configured for a specific
+ task.
+ 
+They then explain the difference between code that's dense and code that's complicated. Usually in FP you're doing multiple 
+things on one line, that's more dense for sure, but maybe not more complicated.
+</details>
+
 
 ### Idris
 <details>
