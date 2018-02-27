@@ -219,15 +219,15 @@ I didn't manage to extract much information.
 
 Referential transparency and explanation.
 
-Immutability as a solution to multi threaded problems (locking, shared resources, ...), `ref` in Clojure seems a good 
+Immutability as a solution to multi threaded problems (locking, shared resources, ...), `ref` in Clojure seems a good
 approach to this problem.
 
 [Shallow copies and deep copies](https://stackoverflow.com/questions/184710/what-is-the-difference-between-a-deep-copy-and-a-shallow-copy).
 
-In immutable lists if you add elements to the head then you can keep on doing so without impacting 
+In immutable lists if you add elements to the head then you can keep on doing so without impacting
 anyone else that have a reference to the previous elements of the list. This passage is at [37:20](https://soundcloud.com/lambda-cast/episode-5-immutability#t=37:20).
 
-So instead of "what does it mean to update and delete" we have "what does it mean to create a new state", we go from one 
+So instead of "what does it mean to update and delete" we have "what does it mean to create a new state", we go from one
 state to the other.
 </details>
 <details>
@@ -235,7 +235,7 @@ state to the other.
 <a href="https://soundcloud.com/lambda-cast/6-null-and-friends">LambdaCast 6: Null And Friends (49:19)</a>
 </summary>
 
-Introduction of `Maybe`, along with `Either`, to solve the `null` problem. The latter could also help to replace exceptions or 
+Introduction of `Maybe`, along with `Either`, to solve the `null` problem. The latter could also help to replace exceptions or
 chain stuff with lots of `andThen`s. It basically lifts types to a higher state in which they could be used without worrying
 about them producing a `null`, because that's being taken care of.
 </details>
@@ -244,12 +244,12 @@ about them producing a `null`, because that's being taken care of.
 <summary>
 <a href="https://soundcloud.com/lambda-cast/7-recursion">LambdaCast 7: Recursion (43:45)</a>
 </summary>
-  
+
 In a recursive approach you just pass new objects each time, as opposed to what happens with the mutation that happens
 in a `for` loop for example.
 One downside could be that if you're not careful you could blow up the stack pretty easily.
 </details>
-  
+
 <details>
 <summary>
 <a href="https://soundcloud.com/lambda-cast/8-morphisms">LambdaCast 8: Morphisms (43:09)</a>
@@ -259,7 +259,7 @@ Cathegory theory is the explanation of why and how math works. "Math of math".
 A morhpism is a function that takes a type and gives back a type, all pure functions are morphisms
 
  * endomorphism is a function that takes a type `A` and returns a type `A`
- * isomorphism is a morphism that could be reversed, if you have `A` to `B` you could go back from `B` to `A`; it's more than 
+ * isomorphism is a morphism that could be reversed, if you have `A` to `B` you could go back from `B` to `A`; it's more than
  just types, it's about the function inner structure, as some information could be loss when going in a direction. An example
  could going from a `Float` to an `Int`: you can't go back as you've lost some information
  * homomorphism does not change the struction of your thing
@@ -306,7 +306,7 @@ Reusability of functions and polymoprhic types enable functions reuse, because t
 <a href="https://soundcloud.com/lambda-cast/10-partial-application">LambdaCast 10: Partial Application (1:09:51)</a>
 </summary>
 
-A function must be curried to be partially applied. In terms of parameter ordering you have what could configure the function 
+A function must be curried to be partially applied. In terms of parameter ordering you have what could configure the function
 coming first, then in the last position you want the thing you will act upon, for example you could configure a function to
 save an array to the database, the first parameter could be the connection, the second the query, and probably the last
 will be the array.
@@ -315,12 +315,37 @@ In languages like Haskell you see a function declared as `add :: Integer -> Inte
 "`add` is a function that takes two integers and return an integer", but what that actually means is "`add` is a function that
 takes an integer that returns a function that takes an integer that returns an integer".
 
-One could imagine a partially applied function as a screwdriver with a detachable head, so you have a function (the 
+One could imagine a partially applied function as a screwdriver with a detachable head, so you have a function (the
  headless screwdriver) and then you have different heads you could attach to it (parameters) so it's configured for a specific
  task.
- 
-They then explain the difference between code that's dense and code that's complicated. Usually in FP you're doing multiple 
+
+They then explain the difference between code that's dense and code that's complicated. Usually in FP you're doing multiple
 things on one line, that's more dense for sure, but maybe not more complicated.
+</details>
+
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/12-monoids">LambdaCast 12: Monoids (1:05:33)</a>
+</summary>
+
+A semi-group is a data type that has an operation that takes two elements of that type and merge them together to give back an
+element of that type. That operation is called append.
+This operation obeys the law of associativity, so `a` combined with `b` and then combined with `c` is the same as `a` combined
+with `c` and then combined with `b`.
+Associativity is of particular help if you need to deal with a huge list for example, because you could use divide et impera.
+
+Integers under addition are a semigroup, integers under multiplication are a semigroup.
+
+A monoid is a semigroup with an identity value for that data type. So for addition it's `0`, for multiplication is `1`. For arrays
+it could be `[]`.
+
+By knowing this terminology problems could be lifted in a new space where everyone speaking could bring problems from their area of
+expertise into the discussion.
+
+A function that takes an `Integer` and returns an `Integer` is also a monoid, it's composable.
+
+In the monoid of functions that go from `a` to `a` the identity function is the identity value. It doesn't change the thing you're
+composing with.
 </details>
 
 
@@ -490,7 +515,7 @@ society, it's something called Disease of Despair: there is no feeling of hope i
 <summary>
 <a href="http://kingencyclopedia.stanford.edu/encyclopedia/documentsentry/doc_beyond_vietnam/">Martin Luther King – Beyond Vietnam: A Time to Break Silence (56:37)</a>
 </summary>
-  
+
 The audio player found at the above link seems to work only on Chrome.
 
 "A time comes when silence is betrayal."
