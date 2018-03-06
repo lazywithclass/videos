@@ -773,6 +773,8 @@ What things cause us to create leaky abstractions?
 <summary>
 <a href="https://www.youtube.com/watch?v=SdUewLCHWvU">GOTO 2017 • A Crystal Ball to Prioritize Technical Debt • Adam Tornhill (50:09)</a>
 </summary>
+ 
+Basically this talk gives you the tools necessary to answer the "Should I address technical debt? If so, where?".
 
 Adam proposes a way to decide when and where to tackle technical debt. He talks about how git, thanks to its informations about
 code changes over time, can point the developer to where an action is mostly needed.
