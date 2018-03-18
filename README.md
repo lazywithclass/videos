@@ -6,6 +6,7 @@ usually they sum up video contents, have a look to get a eagle eye view.
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [DIY](#diy)
  * [Functional programming](#functional-programming)
+ * [Gaming](#gaming)
  * [Idris](#idris)
  * [miniKanren](#minikanren)
  * [Politics](#politics)
@@ -382,6 +383,23 @@ Build functions one bit at a time leveraging the compiler can help you with the 
 Lowercase letters in types are always implicitly bound.
 
 As soon as you have something a bit hard to do, make another function to do that harder thing.
+</details>
+
+### Gaming
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=_FQJEzJ_cQw">How is this speedrun possible? Super Mario Bros. World Record Explained (27:00)</a>
+</summary>
+Behind a world record speedrun there's more than just smashing on a controller, there's careful planning and knowledge
+about how the game works almost at the code level. For example the current WR holder uses how the
+ game stores the destination of where the pipes send Mario to its advantage [gaining precious time](https://youtu.be/_FQJEzJ_cQw?t=342).
+ 
+The explanation of [this part](https://youtu.be/_FQJEzJ_cQw?t=649) is incredible, tells you exactly how precise you have to be
+not to lose a precious *frames*, and why. As I've understood it Mario the game has some optimisations that you exploit to 
+move faster in time, looks to me that you can actually shrink space by jumping on the correct pixels.
+
+[It's all about pixels](https://youtu.be/_FQJEzJ_cQw?t=1318) and when you're towards the end of a run, a pixel in difference
+can ruin your whole run.
 </details>
 
 
