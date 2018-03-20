@@ -15,6 +15,7 @@ usually they sum up video contents, have a look to get a eagle eye view.
  * [Sports](#sports)
  * [TDD](#tdd)
  * [The craft](#the-craft)
+ * [Types](#types)
 
 ### Algorithms and data structures
 <details>
@@ -802,4 +803,32 @@ radically different codebases.
 
 He then speaks about [normalization of deviance](https://en.wikipedia.org/wiki/Normalization_%28sociology%29), or how people come
 to accept what they experience in their every day lives.
+</details>
+
+### Types
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=yVuEPwNuCHw">Types, and why you should care (1:04:05)</a>
+</summary>
+ Speaker is [Yaron Minsky](https://github.com/yminsky), the one who brought OCaml into Jane Street.
+ 
+ * values - data that flows around in your program
+ * variables - a name that points to a value
+ * expressions - a collection of syntax that has some meaning
+ * types - cathegorisation system for values, grouping related values together
+ 
+In untyped languages values have types, while in typed language values variables expressions have types.
+
+```JS
+var x = 5; // value has a type in JavaScript 
+```
+
+```Java
+int x = 5; // variable and value have a type in Java
+```
+
+Statically typed languages, the code that you wrote (the text) has a meaning associated.
+
+Types help communicating intentions and in detecting errors.
 </details>
