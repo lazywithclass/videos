@@ -831,4 +831,6 @@ int x = 5; // variable and value have a type in Java
 Statically typed languages, the code that you wrote (the text) has a meaning associated.
 
 Types help communicating intentions and in detecting errors.
+
+There's also [a discussion on HN](https://news.ycombinator.com/item?id=16622684) about this.
 </details>
