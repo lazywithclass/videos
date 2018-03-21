@@ -16,6 +16,7 @@ usually they sum up video contents, have a look to get a eagle eye view.
  * [TDD](#tdd)
  * [The craft](#the-craft)
  * [Types](#types)
+ * [TypeScript](#typescript)
 
 ### Algorithms and data structures
 <details>
@@ -833,4 +834,21 @@ Statically typed languages, the code that you wrote (the text) has a meaning ass
 Types help communicating intentions and in detecting errors.
 
 There's also [a discussion on HN](https://news.ycombinator.com/item?id=16622684) about this.
+</details>
+
+### TypeScript
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=0ChtcZmb3dI">What's New In TypeScript (1:00:36)</a>
+</summary>
+`.d.ts` files are called declaration files.
+ 
+ TypeScript targets EcmaScript 5. So for example arrow functions are compiled into regular functions. But it's a
+ configuration setting that could be changed int tsconfig.json.
+ 
+ Exhaustiveness checking is introduced later on after some examples where he discusses a possible functional
+ approach to the usual `Shape`, `Rectangle`, `Circle`, `Square` OOP scenario.
+ 
+ Documentation pops automatically up when including a library and having its declaration files with type definitions.
 </details>
