@@ -393,7 +393,7 @@ As soon as you have something a bit hard to do, make another function to do that
 </summary>
 Behind a world record speedrun there's more than just smashing on a controller, there's careful planning and knowledge
 about how the game works almost at the code level. For example the current WR holder uses how the
- game stores the destination of where the pipes send Mario to its advantage [gaining precious time](https://youtu.be/_FQJEzJ_cQw?t=342).
+ game stores the destination of where the pipes send Mario to its advantage [saving time](https://youtu.be/_FQJEzJ_cQw?t=342).
  
 The explanation of [this part](https://youtu.be/_FQJEzJ_cQw?t=649) is incredible, tells you exactly how precise you have to be
 not to lose a precious *frames*, and why. As I've understood it Mario the game has some optimisations that you exploit to 
