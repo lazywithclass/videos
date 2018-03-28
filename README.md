@@ -351,6 +351,36 @@ In the monoid of functions that go from `a` to `a` the identity function is the 
 composing with.
 </details>
 
+<details>
+<summary>
+<a href="https://soundcloud.com/lambda-cast/14-dynamic-and-static-languages">LambdaCast 14: Dynamic and Static Languages (1:17:02)</a>
+</summary>
+In statically typed languages the type lives on the variable, in dinamically typed languages the type lives on the value.
+
+Benefits of dynamic languages: a team of developers from Naught Dog used hot reloading to speed up development time, writing
+a game on the PS. So the emphasis is on shorter development cycles.
+
+The faster iteration could be seen as checking things in the REPL, really fast, with immediate feedback. 
+
+People tend to have [fewer data structures with lots of functions acting upon them](https://stackoverflow.com/questions/6016271/why-is-it-better-to-have-100-functions-operate-on-one-data-structure-than-10-fun#6160116).
+
+Benefit of static languages: a strong type system allows you to think about the type that you're wrtiing and building up
+with those, helps you add more and more functionality with the guarantee that the application still works as you progress.
+
+You write types, lots of them, and the implementation is trivial in the end, because the amount of detail that has been added
+is so great that actually the compiler can even write portions of the implementation for you (Idris does this).
+
+About abstractions: for a function that `A -> A`, the only thing you can say it's that is the identity function because you 
+don't know how to construct an `A` and without side effects and global state there's no place you could pull that knowledge
+from. So types helps you by restricting the amount of things a function can do.
+
+The compiler is there to help, it's not anymore something that you have to keep happy, you want to leverage the help the 
+compiler gives you.
+
+As a final thought one might say that the time spent in the REPL in dynamic languages is somewhat "lost"; on the contrary time
+spent building types remains in the code.
+</details>
+
 
 ### Idris
 <details>
