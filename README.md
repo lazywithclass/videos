@@ -836,6 +836,32 @@ Types help communicating intentions and in detecting errors.
 There's also [a discussion on HN](https://news.ycombinator.com/item?id=16622684) about this.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=AJ-yQEfvdVc">Notes on Type Theory for beginners (48:26)</a>
+</summary>
+"What is a type system?"
+ 
+In all la guages we have 
+ * Data
+ * Operations
+Not all available operations make sense to all kinds of data. "If you use incompatible pieces of data for your operations 
+you will get a representation error".
+
+"Programming languages use a type system to look at a program and determine if a representation error will happen or not".
+
+What strategies could we use to handle those representation errors?
+
+Well you could:
+
+ * perform a type check before running the code - Java - Strong
+ * have unpredictable error set and implicit conversions - JavaScript - Weak
+ * tag code and try to infer if the behaviour will be correct or not - Static
+ * generate code to keep track of the data - Python - Dynamic
+
+
+</details>
+
 ### TypeScript
 
 <details>
