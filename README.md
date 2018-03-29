@@ -892,6 +892,64 @@ Well you could:
 
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=919dHYHldkc">A Hitchhiker's Guide to the Functional Exception Handling in Java by Grzegorz Piwowarek (38:02)</a>
+</summary>
+
+Exception handling like a goto statement, unexpected exit point.
+
+Go for example doesn't throw exceptions, it returns them, because you can actually returns more than one result from a 
+function.
+
+One should construct a type safety stronghold, and from there to rule over everything!
+
+Instead of doing
+
+`List<Url> getSearchResults(String searchString) throws IOException { ... }`
+
+one might want to do
+
+`Try<List<Url>> getSearchResults(String searchString) { ... }`
+
+and then
+
+```
+getSearchResults("foo")
+  .map(...)
+  .filter(...)
+  .onFailure(ex -> LOG.info("..."))
+  .recoverWith(...)
+  .getOrElse(( -> 42);
+```
+
+[This is the "Try" library he showed](https://www.scala-lang.org/api/current/scala/util/Try.html).
+
+He proposes the use of `Either` type instead of throwing exceptions, which is a type that could have one or another value
+but not both. He then speaks about [projections](http://danielwestheide.com/blog/2013/01/02/the-neophytes-guide-to-scala-part-7-the-either-type.html) to be used with `Either`; so in the end we would have
+
+```
+Either<FetchError, List<URL>> getSearchResults(String searchString) { ... }
+
+// and then use it like...
+
+result.right() // right projection
+  .filter(...)
+  .map(...)
+  .getOrElse(Collections::emptyList);
+  
+// ...or...
+
+result.left() // left projection if you're interested in the error
+  .map(FetchError::getMsg)
+  .forEach(System.out::println)
+```
+
+Use exceptions when you don't expect people to recover from them, so for exceptional situations!
+
+"To Try or not to Try, there is no throws" -- Yoda
+</details>
+
 ### TypeScript
 
 <details>
