@@ -950,6 +950,32 @@ Use exceptions when you don't expect people to recover from them, so for excepti
 "To Try or not to Try, there is no throws" -- Yoda
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=MvQxNm5gn8g">A Pragmatic Introduction to Category Theory - Daniela Sfregola (40:31)</a>
+</summary>
+
+A category is two objects and an arrow that connects them, objects could be anything. Objects are types and 
+arrows are functions.
+
+You have three properties that come up often:
+
+ * composition
+ * identity 
+ * associativity
+
+She talks about monoid, which has a way to compose two things of its type and produce a thing of the same type and knows 
+that the identity for that type is.
+
+Functors as boxes that can unwrap what they contain.
+
+Combining two boxes into one gives you an applicative, every applicative is also a functor.
+
+Fusing two boxes together is a monad.
+
+The take away from the talk seems to be: forget about the details, category theory is about how things compose.
+</details>
+
 ### TypeScript
 
 <details>
