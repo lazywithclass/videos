@@ -382,6 +382,54 @@ As a final thought one might say that the time spent in the REPL in dynamic lang
 spent building types remains in the code.
 </details>
 
+### Gaming
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=_FQJEzJ_cQw">How is this speedrun possible? Super Mario Bros. World Record Explained (27:00)</a>
+</summary>
+Behind a world record speedrun there's more than just smashing on a controller, there's careful planning and knowledge
+about how the game works almost at the code level. For example the current WR holder uses how the
+ game stores the destination of where the pipes send Mario to its advantage [saving time](https://youtu.be/_FQJEzJ_cQw?t=342).
+ 
+The explanation of [this part](https://youtu.be/_FQJEzJ_cQw?t=649) is incredible, tells you exactly how precise you have to be
+not to lose a precious *frames*, and why. As I've understood it Mario the game has some optimisations that you exploit to 
+move faster in time, looks to me that you can actually shrink space by jumping on the correct pixels.
+
+[It's all about pixels](https://youtu.be/_FQJEzJ_cQw?t=1318) and when you're towards the end of a run, a pixel in difference
+can ruin your whole run.
+</details>
+
+### Health
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=nRMJMRdquJA">Nara Kasbergen: Empathy as a Service: Supporting Mental Health in Tech | JSConf Iceland 2018 (33:29)</a>
+</summary>
+
+1 in 5 adults suffers from mental health issues. Not so many people talking about.
+
+People affected by mental health issues often hears "I can't believe you're depressed when kids in Africa are starving". 
+There's an answer for this: "Telling someone they can't be sad because others have it worse is like saying someone can't be
+happy because others have it better".
+
+A questionnaire used to gauge the situation had a question like 
+
+ * "Do you think that discussing physical health with your employer would have bad consequences?"
+ * "Do you think that discussing mental health with your employer would have bad consequences?"
+
+Usually there are lots of no in the first and lots of yes in the second.
+
+Being aware of mental helath is especially important if you're a remote worker, after the first couple of months of 
+wonderful realisations, people find they're missing discussions with colleagues and all the social interactions that happen
+in the workplace. Some things the employer could do to mitigate the problem include but should not be limited to:
+
+ * paying for a month of coworking space, to see if the employee can benefit from that
+ * have recurring meetings where everyone meets up
+
+Decorating your workplace is a really helpful thing to do, it makes it more yours.
+
+Empathy is the antidote to shame. From this comes the title of the topic: everyone should offer their empathy to others.
+</details>
+
 
 ### Idris
 <details>
@@ -418,24 +466,6 @@ Lowercase letters in types are always implicitly bound.
 As soon as you have something a bit hard to do, make another function to do that harder thing.
 </details>
 
-### Gaming
-<details>
-<summary>
-<a href="https://www.youtube.com/watch?v=_FQJEzJ_cQw">How is this speedrun possible? Super Mario Bros. World Record Explained (27:00)</a>
-</summary>
-Behind a world record speedrun there's more than just smashing on a controller, there's careful planning and knowledge
-about how the game works almost at the code level. For example the current WR holder uses how the
- game stores the destination of where the pipes send Mario to its advantage [saving time](https://youtu.be/_FQJEzJ_cQw?t=342).
- 
-The explanation of [this part](https://youtu.be/_FQJEzJ_cQw?t=649) is incredible, tells you exactly how precise you have to be
-not to lose a precious *frames*, and why. As I've understood it Mario the game has some optimisations that you exploit to 
-move faster in time, looks to me that you can actually shrink space by jumping on the correct pixels.
-
-[It's all about pixels](https://youtu.be/_FQJEzJ_cQw?t=1318) and when you're towards the end of a run, a pixel in difference
-can ruin your whole run.
-</details>
-
-### Health
 
 ### miniKanren
 <details>
