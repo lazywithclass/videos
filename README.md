@@ -7,6 +7,7 @@ usually they sum up video contents, have a look to get a eagle eye view.
  * [DIY](#diy)
  * [Functional programming](#functional-programming)
  * [Gaming](#gaming)
+ * [Health](#health)
  * [Idris](#idris)
  * [miniKanren](#minikanren)
  * [Politics](#politics)
@@ -434,6 +435,7 @@ move faster in time, looks to me that you can actually shrink space by jumping o
 can ruin your whole run.
 </details>
 
+### Health
 
 ### miniKanren
 <details>
