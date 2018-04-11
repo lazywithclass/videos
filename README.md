@@ -4,6 +4,7 @@ Topics differ a lot, whatever captures my attention ends up here. Notes are writ
 usually they sum up video contents, have a look to get a eagle eye view.
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
+ * [Category Theory](#category-theory)
  * [DIY](#diy)
  * [Functional programming](#functional-programming)
  * [Gaming](#gaming)
@@ -24,9 +25,28 @@ usually they sum up video contents, have a look to get a eagle eye view.
 <summary>
 <a href="https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b">CSE373 2012 - Introduction to Algorithms</a>
 </summary>
+
 This is a course held by prof Skiena, it's a regular university course so it's pretty long, I've liked it as it gave me
 some background on the matter, "some" because it's not an area I find particularly interesting, but if you do this might
 be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
+</details>
+
+### Category Theory
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=I8LbkfSSR58&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_">Category Theory 1.1: Motivation and Philosophy (46:45)</a>
+</summary>
+
+If you want to deal with more complex problems you have to be able to chop the bigger problems into small problems, solve 
+them separately and then combine the solution together: composability. And that's what this is all about.
+
+Abstraction plus composability gives reusability.
+
+Problems with OO are mutations and shared data, which mixed up has a name: data races.
+ 
+Ideas could be expressed in this higher level language (category theory), and later translated into a lower level language.
+
+Category theory is about reasoning about problems.
 </details>
 
 ### DIY
@@ -150,6 +170,7 @@ the result of an async call that returns a `Maybe`, most generic wrapped generic
 <summary>
 <a href="https://www.youtube.com/watch?v=9g5eWJ16Oeo">Clojure Remote - The Elements of a Functional Mindset (Eric Normand) (43:51)</a>
 </summary>
+
 "The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise."
 
 -- Edsger Dijkstra
@@ -356,6 +377,7 @@ composing with.
 <summary>
 <a href="https://soundcloud.com/lambda-cast/14-dynamic-and-static-languages">LambdaCast 14: Dynamic and Static Languages (1:17:02)</a>
 </summary>
+
 In statically typed languages the type lives on the variable, in dinamically typed languages the type lives on the value.
 
 Benefits of dynamic languages: a team of developers from Naught Dog used hot reloading to speed up development time, writing
@@ -387,6 +409,7 @@ spent building types remains in the code.
 <summary>
 <a href="https://www.youtube.com/watch?v=_FQJEzJ_cQw">How is this speedrun possible? Super Mario Bros. World Record Explained (27:00)</a>
 </summary>
+
 Behind a world record speedrun there's more than just smashing on a controller, there's careful planning and knowledge
 about how the game works almost at the code level. For example the current WR holder uses how the
  game stores the destination of where the pipes send Mario to its advantage [saving time](https://youtu.be/_FQJEzJ_cQw?t=342).
@@ -472,6 +495,7 @@ As soon as you have something a bit hard to do, make another function to do that
 <summary>
 <a href="https://www.youtube.com/watch?v=a5p8DPbaokE">miniKanren Intro Series #1 (2:06:25)</a>
 </summary>
+
 I think it's safe to say that if you know a Lisp you could skip this first video.
 
 miniKanren was originally written as an extension of Scheme, and allows for logic programming.
@@ -710,6 +734,7 @@ Give a few insights on how a freediver prepares for the descent and what they ex
 <summary>
 <a href="https://www.youtube.com/watch?v=odIXWv1m2a8">Tanya Streeter | TEDxAustin 2012 (16:58)</a>
 </summary>
+ 
 I was fascinated by the previous one and impressed by the story of [Audrey Mestre](https://en.wikipedia.org/wiki/Audrey_Mestre)
 I got to know after that, where Tanya appears briefly, so here I am with another video about the same sport.
 
@@ -727,6 +752,7 @@ Then moves on talking about plastic and the sea, and about giving back to it. Re
 <summary>
 <a href="https://www.youtube.com/watch?v=eXBZUee4EpY">How to Hold Your Breath Longer: a freediving tutorial from a professional freediver (10:20)</a>
 </summary>
+ 
 Tips on how to hold your breath and getting good at it, introduces training tables (CO2 tables or O2 tables).
 Also explains how to get started towards the end of the video.
 </details>
@@ -874,6 +900,7 @@ to accept what they experience in their every day lives.
 <summary>
 <a href="https://www.youtube.com/watch?v=yVuEPwNuCHw">Types, and why you should care (1:04:05)</a>
 </summary>
+ 
  Speaker is [Yaron Minsky](https://github.com/yminsky), the one who brought OCaml into Jane Street.
  
  * values - data that flows around in your program
@@ -902,6 +929,7 @@ There's also [a discussion on HN](https://news.ycombinator.com/item?id=16622684)
 <summary>
 <a href="https://www.youtube.com/watch?v=AJ-yQEfvdVc">Notes on Type Theory for beginners (48:26)</a>
 </summary>
+ 
 "What is a type system?"
  
 In all la guages we have 
@@ -1014,6 +1042,7 @@ The take away from the talk seems to be: forget about the details, category theo
 <summary>
 <a href="https://www.youtube.com/watch?v=0ChtcZmb3dI">What's New In TypeScript (1:00:36)</a>
 </summary>
+
 `.d.ts` files are called declaration files.
  
  TypeScript targets EcmaScript 5. So for example arrow functions are compiled into regular functions. But it's a
