@@ -76,7 +76,7 @@ Going from `a` to `b` using `f` and going from `b` to `c` using `g` is identical
 Composable means that the end of an arrow is the same as the start of another arrow. The 
 composition of arrows contains information about a Category.
 
-[composition](img/category-theory-1.2-what-is-a-category.png)
+![composition](img/category-theory-1.2-what-is-a-category.png)
 
  * identity
 
