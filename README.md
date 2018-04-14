@@ -29,6 +29,8 @@ usually they sum up video contents, have a look to get a eagle eye view.
 This is a course held by prof Skiena, it's a regular university course so it's pretty long, I've liked it as it gave me
 some background on the matter, "some" because it's not an area I find particularly interesting, but if you do this might
 be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
+
+All my notes here were taken on paper, before I created this repo.
 </details>
 
 ### Category Theory
@@ -48,6 +50,50 @@ Ideas could be expressed in this higher level language (category theory), and la
 
 Category theory is about reasoning about problems.
 </details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=p54Hd7AmVFU&index=2&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_">Category Theory 1.2: What is a category? (48:17)</a>
+</summary>
+
+Major tools in our arsenal:
+
+ * abstraction
+ 
+Get rid of the unnecessary details, "forget about assembly language".
+Things that were different because of unnecessary details become identical, two 
+biliard balls might be different under the microscope, but you can replace one for
+another when you play.
+ 
+ * composition
+
+If you have an arrow from `a` to `b` (`f`) and from `b` to `c` (`g`), then there always must 
+exist an arrow that goes from a to c (`g ∘ f`, which is read as "g after f").
+
+Going from `a` to `b` using `f` and going from `b` to `c` using `g` is identical to going fom 
+`a` to `c` using `g ∘ f`.
+
+Composable means that the end of an arrow is the same as the start of another arrow. The 
+composition of arrows contains information about a Category.
+
+[composition](img/category-theory-1.2-what-is-a-category.png)
+
+ * identity
+
+For every object there is always an arrow called identity that goes from the object to itself.
+So an arrow `f` that goes from `a` to `b` composed with an arrow `idb` that goes from `b`
+to `b` I will get back an `f`. 
+
+Composition and identity define Category Theory.
+
+A Category consists of objects and arrows (morphisms). You could picture that as a graph. 
+
+A morphism is something that goes from an object to another one. You have objects so that you 
+could mark the start and end of an arrow. You could have 0 or more arrows between two objects,
+in both directions and from an object to itself.
+
+</details>
+
 
 ### DIY
 <details>
