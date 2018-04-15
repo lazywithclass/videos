@@ -76,13 +76,17 @@ Going from `a` to `b` using `f` and going from `b` to `c` using `g` is identical
 Composable means that the end of an arrow is the same as the start of another arrow. The 
 composition of arrows contains information about a Category.
 
-![composition](img/category-theory-1.2-what-is-a-category.png)
+`h ∘ (g ∘ f) = (h ∘ g) ∘ f` which is associativity
 
  * identity
 
 For every object there is always an arrow called identity that goes from the object to itself.
 So an arrow `f` that goes from `a` to `b` composed with an arrow `idb` that goes from `b`
 to `b` I will get back an `f`. 
+
+![composition](img/category-theory-1.2-what-is-a-category.png)
+
+Or in notation `idb ∘ f = f`
 
 Composition and identity define Category Theory.
 
@@ -92,6 +96,11 @@ A morphism is something that goes from an object to another one. You have object
 could mark the start and end of an arrow. You could have 0 or more arrows between two objects,
 in both directions and from an object to itself.
 
+Types are your objects, functions are your morphisms.
+
+Just by looking at the multiplication table of a set, at the morphisms, you can learn a lot 
+with this data hiding technique that Category Theory offers. A set's interface is its 
+collection of morphisms.
 </details>
 
 
