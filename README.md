@@ -19,6 +19,7 @@ usually they sum up video contents, have a look to get a eagle eye view.
  * [The craft](#the-craft)
  * [Types](#types)
  * [TypeScript](#typescript)
+ * [Web dev](#web-dev)
 
 ### Algorithms and data structures
 <details>
@@ -1107,4 +1108,38 @@ The take away from the talk seems to be: forget about the details, category theo
  approach to the usual `Shape`, `Rectangle`, `Circle`, `Square` OOP scenario.
  
  Documentation pops automatically up when including a library and having its declaration files with type definitions.
+</details>
+
+### Web dev
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=FPHVZlpxInw">Angular the Redux Way by Gion Kunz (48:42)</a>
+</summary>
+
+State is your enemy.
+
+Persistent state - storage, db, cookies, session
+Transiente state - url state, ui state
+
+Flux data architecture: Action (dispatched from the view) -> Dispatcher -> Store ->
+View -> Action. It's a very controlled way on how to manage your data, it's 
+unidirectional. Redux is an implementation of Flux.
+
+Flux
+
+ * centralised state
+ * unidirectional
+ * reducers are pure functions, state transitions can be reproducers at any time
+ * simple to reason about
+ 
+To deal with async calls one could use ngrx effects.
+
+Common state patterns:
+
+ * async operations with error handling - `loadSuccessAction`, `loadFailedAction` which
+ are reducers handled like events
+ * optimistic update
+ * load more button / infinite scrolling
+ * process steps / state machine - easily handle that in the reducer
 </details>
