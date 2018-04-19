@@ -104,6 +104,20 @@ with this data hiding technique that Category Theory offers. A set's interface i
 collection of morphisms.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=O2lZkr-aAqk&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=3">Category Theory 2.1: Functions, epimorphisms (46:13)</a>
+</summary>
+
+Composability and identity are the most important features of a category.
+
+The most important example of a category that we use in programming, is the category
+of types and functions. The model for types and functions is sets and functions
+between sets.
+
+
+</details>
+
 
 ### DIY
 <details>
