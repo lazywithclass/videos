@@ -19,6 +19,7 @@ usually they sum up video contents, have a look to get a eagle eye view.
  * [The craft](#the-craft)
  * [Types](#types)
  * [TypeScript](#typescript)
+ * [Web dev](#web-dev)
 
 ### Algorithms and data structures
 <details>
@@ -29,6 +30,8 @@ usually they sum up video contents, have a look to get a eagle eye view.
 This is a course held by prof Skiena, it's a regular university course so it's pretty long, I've liked it as it gave me
 some background on the matter, "some" because it's not an area I find particularly interesting, but if you do this might
 be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
+
+All my notes here were taken on paper, before I created this repo.
 </details>
 
 ### Category Theory
@@ -48,6 +51,73 @@ Ideas could be expressed in this higher level language (category theory), and la
 
 Category theory is about reasoning about problems.
 </details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=p54Hd7AmVFU&index=2&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_">Category Theory 1.2: What is a category? (48:17)</a>
+</summary>
+
+Major tools in our arsenal:
+
+ * abstraction
+ 
+Get rid of the unnecessary details, "forget about assembly language".
+Things that were different because of unnecessary details become identical, two 
+biliard balls might be different under the microscope, but you can replace one for
+another when you play.
+ 
+ * composition
+
+If you have an arrow from `a` to `b` (`f`) and from `b` to `c` (`g`), then there always must 
+exist an arrow that goes from a to c (`g ∘ f`, which is read as "g after f").
+
+Going from `a` to `b` using `f` and going from `b` to `c` using `g` is identical to going fom 
+`a` to `c` using `g ∘ f`.
+
+Composable means that the end of an arrow is the same as the start of another arrow. The 
+composition of arrows contains information about a Category.
+
+`h ∘ (g ∘ f) = (h ∘ g) ∘ f` which is associativity
+
+ * identity
+
+For every object there is always an arrow called identity that goes from the object to itself.
+So an arrow `f` that goes from `a` to `b` composed with an arrow `idb` that goes from `b`
+to `b` I will get back an `f`. 
+
+![composition](img/category-theory-1.2-what-is-a-category.png)
+
+Or in notation `idb ∘ f = f`
+
+Composition and identity define Category Theory.
+
+A Category consists of objects and arrows (morphisms). You could picture that as a graph. 
+
+A morphism is something that goes from an object to another one. You have objects so that you 
+could mark the start and end of an arrow. You could have 0 or more arrows between two objects,
+in both directions and from an object to itself.
+
+Types are your objects, functions are your morphisms.
+
+Just by looking at the multiplication table of a set, at the morphisms, you can learn a lot 
+with this data hiding technique that Category Theory offers. A set's interface is its 
+collection of morphisms.
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=O2lZkr-aAqk&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=3">Category Theory 2.1: Functions, epimorphisms (46:13)</a>
+</summary>
+
+Composability and identity are the most important features of a category.
+
+The most important example of a category that we use in programming, is the category
+of types and functions. The model for types and functions is sets and functions
+between sets.
+
+
+</details>
+
 
 ### DIY
 <details>
@@ -667,8 +737,8 @@ layers and layers of sediments consisting of things that got attracted and never
 how it takes a finite amount of time to fall through the horizon for an in flowing observer and an infinite amount of
 time as seen by the outside.
 There's lots of information near the horizon!
-One of the things I probably misunderstood the most is that distant Hawking could be a description of the interior of a black hole,
-which sounds amazing.
+One of the things I probably misunderstood the most is that distant Hawking radiation could be a description of the interior
+of a black hole, which sounds amazing.
 </details>
 
 <details>
@@ -1052,4 +1122,38 @@ The take away from the talk seems to be: forget about the details, category theo
  approach to the usual `Shape`, `Rectangle`, `Circle`, `Square` OOP scenario.
  
  Documentation pops automatically up when including a library and having its declaration files with type definitions.
+</details>
+
+### Web dev
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=FPHVZlpxInw">Angular the Redux Way by Gion Kunz (48:42)</a>
+</summary>
+
+State is your enemy.
+
+Persistent state - storage, db, cookies, session
+Transiente state - url state, ui state
+
+Flux data architecture: Action (dispatched from the view) -> Dispatcher -> Store ->
+View -> Action. It's a very controlled way on how to manage your data, it's 
+unidirectional. Redux is an implementation of Flux.
+
+Flux
+
+ * centralised state
+ * unidirectional
+ * reducers are pure functions, state transitions can be reproducers at any time
+ * simple to reason about
+ 
+To deal with async calls one could use ngrx effects.
+
+Common state patterns:
+
+ * async operations with error handling - `loadSuccessAction`, `loadFailedAction` which
+ are reducers handled like events
+ * optimistic update
+ * load more button / infinite scrolling
+ * process steps / state machine - easily handle that in the reducer
 </details>
