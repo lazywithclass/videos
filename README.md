@@ -115,7 +115,34 @@ The most important example of a category that we use in programming, is the cate
 of types and functions. The model for types and functions is sets and functions
 between sets.
 
+A mathematical function between sets is total (defined for all arguments) and pure.
 
+Functions have a direction. Multiple elements from the domain could become a single
+element in the codomain, also called image.
+
+![domain codomain](img/category-theory-2.1-domain-codomain.png)
+
+The inverse cannot happen.
+
+Given a function `f :: a -> b` is invertible if there is a function `g :: b -> a`, so that
+`g ∘ f = id` (and also `f ∘ g = id`), where `id` (identity) is the original element. An 
+invertible function is called isomorphism.
+
+A function as something directional, a process that takes place in time, a function that
+is not invertible is something that increases entropy: you can't unboil an egg. Abstraction:
+I don't care from which point I came from, I am interested about the point in which I end up. 
+For example the `isEven` function, I might get a `true`, but I don't know if I started from
+`2` or `4`.
+
+![abstraction](img/category-theory-2.1-abstraction.png)
+
+An injective function does not collapse values into a value. If the image covers all the codomain
+is called surjective. Injective and surjective makes an isomorphism.
+
+In Category Theory people use Greek, not Latin, so:
+
+ * injective -> monomorphism
+ * surjective -> epimorphism
 </details>
 
 
