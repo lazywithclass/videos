@@ -1,7 +1,9 @@
 ## Videos I find interesting, plus bonus scripts!
 
 Topics differ a lot, whatever captures my attention ends up here. Notes are written by me (click the ▶ to see them),
-usually they sum up video contents, have a look to get a eagle eye view.
+usually they sum up video contents, have a look to get a eagle eye view, do not expect a complete summary.
+
+[These are the channels where I get most of my sources](#sources).
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [Category Theory](#category-theory)
@@ -1184,3 +1186,28 @@ Common state patterns:
  * load more button / infinite scrolling
  * process steps / state machine - easily handle that in the reducer
 </details>
+
+### Sources
+
+These are the channels where I get most of my sources:
+
+ * alter conf
+ * clojure tv
+ * codegram technologies
+ * cognitect blog
+ * curry on
+ * deconstruct conf
+ * devoxx
+ * elixir conf
+ * erlang solutions
+ * freakonomics
+ * goto conferences
+ * jsconf 
+ * lambda cast
+ * lambda conf
+ * lambda world
+ * mike stay category theory
+ * nordic js
+ * oredev conference
+ * reply all
+ * strange loop
