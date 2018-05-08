@@ -1135,6 +1135,38 @@ Fusing two boxes together is a monad.
 The take away from the talk seems to be: forget about the details, category theory is about how things compose.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=IOiZatlZtGU">"Propositions as Types" by Philip Wadler (42:42)</a>
+</summary>
+
+Computer is a person following a sequence of instructios
+
+He makes the example of three notable scientists (Hilbert, Gödel, Turing), then asks 
+"Is mathematics invented or discovered?", given that those three arrived to the same 
+conclusions to the "decision problem" independently one could argue that it's discovered.
+
+Propositions as types: Propositions in logic -> types in a programming language<br />
+Proofs in logic -> programs in programming language<br />
+Simplifications of proofs -> evaluation of programs
+
+Curry-Howard correspondence
+
+  * propositions as types
+  * proofs as programs
+  * normalisation of proofs as evaluation of programs
+
+Dependent types are at the core of languages used to represent proofs.
+
+"Most of you use programming languages that are invented. And you can tell!
+
+[laughter]
+
+So my invitation to you is to use programming languages that are discovered."
+
+He really puts an emphasis on following things that are discovered rather than invented.
+</details>
+
 ### TypeScript
 
 <details>
