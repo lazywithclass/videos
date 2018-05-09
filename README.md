@@ -1223,23 +1223,22 @@ Common state patterns:
 
 These are the channels where I get most of my sources:
 
- * alter conf
- * clojure tv
- * codegram technologies
- * cognitect blog
- * curry on
- * deconstruct conf
- * devoxx
- * elixir conf
- * erlang solutions
+ * [alter conf](https://www.youtube.com/channel/UC4Av66gi0KiboNzqJy5rAPQ)
+ * [clojure tv](https://www.youtube.com/user/ClojureTV/videos)
+ * [codegram technologies](https://www.youtube.com/channel/UCwoOpKfkyCQHW562hXXQAGg/videos)
+ * [cognitect cognicast](http://blog.cognitect.com/cognicast)
+ * [curry on](https://www.youtube.com/channel/UC-WICcSW1k3HsScuXxDrp0w/videos)
+ * [devoxx](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg/videos)
+ * [elixir conf](https://www.youtube.com/channel/UC0l2QTnO1P2iph-86HHilMQ/videos)
+ * [erlang solutions](https://www.youtube.com/user/ErlangSolutions/videos)
  * freakonomics
- * goto conferences
+ * [goto conferences](https://www.youtube.com/user/GotoConferences/videos)
  * jsconf 
  * lambda cast
  * lambda conf
  * lambda world
- * mike stay category theory
+ * [mike stay category theory](https://www.youtube.com/watch?v=-FkgOHvNAU8&list=PLwuUlC2HlHGe7vmItFmrdBLn6p0AS8ALX)
  * nordic js
  * oredev conference
  * reply all
- * strange loop
+ * [strange loop](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw/videos)
