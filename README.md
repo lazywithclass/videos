@@ -1167,6 +1167,20 @@ So my invitation to you is to use programming languages that are discovered."
 He really puts an emphasis on following things that are discovered rather than invented.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=SknxggwRPzU">Propositions as Types - Computerphile (17:45)</a>
+</summary>
+
+Relation between proofs and propositions, and programs and types.
+
+![propositions as types](img/propositions-as-types.png)
+
+The evidence of a proposition is the type of its proofs, whenever you find an element
+of this type you've verified the proposition (more or less, I am not sure I am 
+grasping this).
+</details>
+
 ### TypeScript
 
 <details>
@@ -1223,22 +1237,23 @@ Common state patterns:
 
 These are the channels where I get most of my sources:
 
- * [alter conf](https://www.youtube.com/channel/UC4Av66gi0KiboNzqJy5rAPQ)
- * [clojure tv](https://www.youtube.com/user/ClojureTV/videos)
- * [codegram technologies](https://www.youtube.com/channel/UCwoOpKfkyCQHW562hXXQAGg/videos)
- * [cognitect cognicast](http://blog.cognitect.com/cognicast)
- * [curry on](https://www.youtube.com/channel/UC-WICcSW1k3HsScuXxDrp0w/videos)
- * [devoxx](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg/videos)
- * [elixir conf](https://www.youtube.com/channel/UC0l2QTnO1P2iph-86HHilMQ/videos)
- * [erlang solutions](https://www.youtube.com/user/ErlangSolutions/videos)
+ * alter conf
+ * clojure tv
+ * codegram technologies
+ * cognitect blog
+ * curry on
+ * deconstruct conf
+ * devoxx
+ * elixir conf
+ * erlang solutions
  * freakonomics
- * [goto conferences](https://www.youtube.com/user/GotoConferences/videos)
+ * goto conferences
  * jsconf 
  * lambda cast
  * lambda conf
  * lambda world
- * [mike stay category theory](https://www.youtube.com/watch?v=-FkgOHvNAU8&list=PLwuUlC2HlHGe7vmItFmrdBLn6p0AS8ALX)
+ * mike stay category theory
  * nordic js
  * oredev conference
  * reply all
- * [strange loop](https://www.youtube.com/channel/UC_QIfHvN9auy2CoOdSfMWDw/videos)
+ * strange loop
