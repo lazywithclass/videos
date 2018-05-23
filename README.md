@@ -7,6 +7,7 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [Category Theory](#category-theory)
+ * [Cyber security](#cyber-security)
  * [DIY](#diy)
  * [Functional programming](#functional-programming)
  * [Gaming](#gaming)
@@ -147,6 +148,48 @@ In Category Theory people use Greek, not Latin, so:
  * surjective -> epimorphism
 </details>
 
+### Cyber security
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=0B-sG1rKJ2U">#HITBGSEC 2015 - Marina Krotofil - Hacking Chemical Plants for Competition and Extortion (1:02:26)</a>
+</summary>
+
+Industrial Control System (SCADA).
+
+Cyber physical attack, an attack that gets launched in the cyber world that has
+effects in the physical world.
+
+ * what can attacker do with the vulnerability?
+ * any further actions required?
+ * how severe the potential physical impact?
+
+Process control automation
+
+Control loop: physical process - sensors - control system - actuators - physical process
+
+PLC programmable logic controller.
+
+Control logic: program in the PLC that defines what should and what should not happen.
+
+PLC cannot control the processes on their own, they don't have the big picture. We need
+human operators.
+
+HMI is the Human Machine Interface.
+
+Why hacking SCADA? Money. Lots of. For example you could reduce product quality.
+Think about being paid by a competitor for that.
+
+Stages of cyber-physical attacks
+
+ * Access
+ * Discovery
+ * Control
+ * Damage
+ * Cleanup
+
+Security is about rising the cost of the attack.
+</details>
 
 ### DIY
 <details>
