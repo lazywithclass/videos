@@ -653,6 +653,30 @@ document.addEventListener('click', () => {
 ```
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=YXDm3WHZT5g">Plain Functional Programming by Martin Odersky (46:57)</a>
+</summary>
+
+Greatest difficulty in software engineering is complexity. Software systems get replaced
+not when they wear out but when they crumble under the weight of their own complexity.
+
+FP helps by removing one important dimension of complexity: the need to understand
+the history of the program in order to understand a single part (a function). Functions
+just take parameters and give you a result, no side effect.
+
+The functional way: parameterize all the things, even though it could have problems, for
+example having too many parameters.
+
+Raise your abstracts. Category theory.
+
+The great thing in this video is the second part, where Martin Odersky goes through
+a real world example on how to use types to make code more adherent to FP principles.
+
+He introduces the notion of Algebraic Effects.
+
+[Principle of least power](http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html).
+</details>
 
 ### Gaming
 <details>
