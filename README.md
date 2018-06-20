@@ -548,113 +548,6 @@ spent building types remains in the code.
 
 <details>
 <summary>
-<a href="https://egghead.io/courses/getting-started-with-redux">Getting Started with Redux (2:01:25)</a>
-</summary>
-
-#### [Redux](https://redux.js.org/): The Single Immutable State Tree
-
-This is the first principle.
-
-The state describing all of the application, including the data and the UI state is 
-represented as a single JS object, all mutations and changes of state are explicit.
-
-#### Redux: Describing State Changes with Actions
-
-This is the second principle.
-
-The state tree is read only. When you want to change it you dispatch an action, which
-describes the change, it is the minimum representation of the change.
-
-Only requirement is that has a `type` property.
-
-#### Redux: Pure and Impure Functions
-
-Pure functions
- * return value depends just on inputs
- * no side effects
- * just calculate the new value, if you call them with the same argument you will get
- the same result
- * do not modify arguments
- 
-#### Redux: The Reducer Function
- 
-This is the third principle.
- 
-UI is more predictable when it is described as a pure function of the application's 
-state. State mutations in Redux are desxribed as pure function, argument is the 
-previous state and action, and return the next state of the app.
- 
-#### Redux: Writing a Counter Reducer with Tests
- 
-If the reducer receives `undefined` as state it must return the initial state of the
-application.
- 
-#### Redux: Store Methods: getState(), dispatch(), and subscribe()
- 
-`createStore` accepts a reducer and creates the store.
-
-Store holds current application state, lets you dispatch actions.
-
-`getState` retrieves the current state.
-
-`dispatch` dispatches actions to change the state.
-
-`subscribe` register a callback any time an action is `dispatch`ed.
-
-#### Redux: Implementing Store from Scratch
-
-```js
-const counter = (state = 0, action) => {
-  switch (action.type) {
-    case 'INCREMENT':
-      return state + 1;
-    case 'DECREMENT':
-      return state - 1;
-    default: 
-      return state;
-  }
-}
-
-const createStore = (reducer) => {
-  let state;
-  let listeners = [];
-  
-  const getState = () => state;
-  
-  const dispatch = (action) => {
-    state = reducer(state, action);
-    listeners.forEach(listener => listener());
-  };
-  
-  const subscribe = (listener) => {
-    listeners.push(listener);
-    return () => {
-      listeners = listeners.filter(l => l !== listener);
-    };
-  };
-  
-  dispatch({});
-  
-  return { getState, dispatch, subscribe };
-};
-
-const store = createStore(counter);
-
-const render = () => {
-  document.body.innerText = store.getState();
-};
-
-store.subscribe(render);
-render();
-
-document.addEventListener('click', () => {
-  store.dispatch({ type: 'INCREMENT' });
-});
-```
-</details>
-
-<details>
-<summary>
 <a href="https://www.youtube.com/watch?v=YXDm3WHZT5g">Plain Functional Programming by Martin Odersky (46:57)</a>
 </summary>
 
@@ -1407,6 +1300,127 @@ Common state patterns:
  * load more button / infinite scrolling
  * process steps / state machine - easily handle that in the reducer
 </details>
+
+<details>
+<summary>
+<a href="https://egghead.io/courses/getting-started-with-redux">Getting Started with Redux (2:01:25)</a>
+</summary>
+ 
+[Here are some notes](https://github.com/tayiorbeii/egghead.io_redux_course_notes) on the course.
+
+#### [Redux](https://redux.js.org/): The Single Immutable State Tree
+
+This is the first principle.
+
+The state describing all of the application, including the data and the UI state is 
+represented as a single JS object, all mutations and changes of state are explicit.
+
+#### Redux: Describing State Changes with Actions
+
+This is the second principle.
+
+The state tree is read only. When you want to change it you dispatch an action, which
+describes the change, it is the minimum representation of the change.
+
+Only requirement is that has a `type` property.
+
+#### Redux: Pure and Impure Functions
+
+Pure functions
+ * return value depends just on inputs
+ * no side effects
+ * just calculate the new value, if you call them with the same argument you will get
+ the same result
+ * do not modify arguments
+ 
+#### Redux: The Reducer Function
+ 
+This is the third principle.
+ 
+UI is more predictable when it is described as a pure function of the application's 
+state. State mutations in Redux are desxribed as pure function, argument is the 
+previous state and action, and return the next state of the app.
+ 
+#### Redux: Writing a Counter Reducer with Tests
+ 
+If the reducer receives `undefined` as state it must return the initial state of the
+application.
+ 
+#### Redux: Store Methods: getState(), dispatch(), and subscribe()
+ 
+`createStore` accepts a reducer and creates the store.
+
+Store holds current application state, lets you dispatch actions.
+
+`getState` retrieves the current state.
+
+`dispatch` dispatches actions to change the state.
+
+`subscribe` register a callback any time an action is `dispatch`ed.
+
+#### Redux: Implementing Store from Scratch
+
+```js
+const counter = (state = 0, action) => {
+  switch (action.type) {
+    case 'INCREMENT':
+      return state + 1;
+    case 'DECREMENT':
+      return state - 1;
+    default: 
+      return state;
+  }
+}
+
+const createStore = (reducer) => {
+  let state;
+  let listeners = [];
+  
+  const getState = () => state;
+  
+  const dispatch = (action) => {
+    state = reducer(state, action);
+    listeners.forEach(listener => listener());
+  };
+  
+  const subscribe = (listener) => {
+    listeners.push(listener);
+    return () => {
+      listeners = listeners.filter(l => l !== listener);
+    };
+  };
+  
+  dispatch({});
+  
+  return { getState, dispatch, subscribe };
+};
+
+const store = createStore(counter);
+
+const render = () => {
+  document.body.innerText = store.getState();
+};
+
+store.subscribe(render);
+render();
+
+document.addEventListener('click', () => {
+  store.dispatch({ type: 'INCREMENT' });
+});
+```
+
+To avoid mutation one could you `Object.assign`, `Object.freeze`, ora a library like
+[Immutable.js](https://facebook.github.io/immutable-js/).
+
+#### Redux: Writing a Todo List Reducer (Adding a Todo)
+
+All reducers should return the current State.
+
+It's ok to call reducers from other reducers, try to build them so that you can call them
+by passing the current state and an action.
+
+</details>
+
 
 ### Sources
 
