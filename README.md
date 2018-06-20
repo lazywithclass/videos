@@ -1421,6 +1421,45 @@ by passing the current state and an action.
 
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=lI3IcjFg9Wk">"Redux: Architecting and scaling a new web app at The NY Times" by Juan Carlos Montemayor Elosua (41:16)</a>
+</summary>
+
+`app = ui(state)`
+
+UI comes back to life once given a state, looks like this process is called hydration in Redux lingo.
+
+Pure functions do not depend on other things generally ([also kind of said by Martin Odersky](https://www.youtube.com/watch?v=YXDm3WHZT5g)).
+
+3 principles in Redux:
+ * single source of truth
+ * State is read only
+ * State changes are made through pure functions
+ 
+Views -> Actions -> Reducers -> State -> Views -> ...
+
+Views - user doing something
+Actions - side effects
+Reducers - update the State
+
+He introduces the concept of selectors and derived data, the goal is to have a small State, so you use functions to fill in 
+the gaps, for example if you need to show the `username` which is `name` concatenated to `surname`, you don't store 
+`username`, you store only `name` and `surname` and compute the other whenever needed.
+
+Personal doubt: how much data should I put in the Redux store? Do you put everything in there? Do you put things you don't 
+need in the `localStorage` and then put them in the State when needed?
+
+Selectors remind me about [lenses](https://stackoverflow.com/questions/8307370/functional-lenses).
+
+Set aside a place in your app to deal with side effects, or impure functions, as far as possible from the rest of the 
+application. If something wrong happens you possibly know at this point that it might be dirty thing, you can point your 
+finger basically.
+
+Middleware in Redux can help you deal with side effects, so imagine that before and after the reducers, so you can massage
+the data.
+</details>
+
 
 ### Sources
 
