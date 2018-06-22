@@ -22,6 +22,7 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
  * [The craft](#the-craft)
  * [Types](#types)
  * [TypeScript](#typescript)
+ * [UX](#ux)
  * [Web dev](#web-dev)
 
 ### Algorithms and data structures
@@ -1265,6 +1266,22 @@ grasping this).
  approach to the usual `Shape`, `Rectangle`, `Circle`, `Square` OOP scenario.
  
  Documentation pops automatically up when including a library and having its declaration files with type definitions.
+</details>
+
+### UX
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=8FpigqfcvlM">Sequelitis - Mega Man Classic vs. Mega Man X (19:52)</a>
+</summary>
+ 
+This video is all about UX. It's [a definition of UX](https://blog.codinghorror.com/level-one-the-intro-stage/).
+
+The game teaches the player how to play through its level design.
+
+The designers want to feel justified when you got hit. It's your fault, not theirs.
+
+Conveyance. Theming. Fuck.
 </details>
 
 ### Web dev
