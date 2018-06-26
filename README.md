@@ -1465,7 +1465,7 @@ the gaps, for example if you need to show the `username` which is `name` concate
 `username`, you store only `name` and `surname` and compute the other whenever needed.
 
 Personal doubt: how much data should I put in the Redux store? Do you put everything in there? Do you put things you don't 
-need in the `localStorage` and then put them in the State when needed?
+need in the `localStorage` and then put them in the State when needed? [Here's one take](https://github.com/reduxjs/redux/issues/1287) from the creator of Redux.
 
 Selectors remind me about [lenses](https://stackoverflow.com/questions/8307370/functional-lenses).
 
