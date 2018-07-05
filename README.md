@@ -590,6 +590,22 @@ move faster in time, looks to me that you can actually shrink space by jumping o
 can ruin your whole run.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=MXU_FlI5qFE">Bloodborne Speedrun in 34 Minutes (33:09)</a>
+</summary>
+
+The fact that he made the run in less than 33 minutes without even dying once, and, with an underlevelled character is
+baffling.
+
+Fascinating how monsters react in a different way when you approach them head on: almost no one of them attacks, and
+with bosses, if you know where to hit them, a fight that easily took me 20+ retries could be done at the first attempt (by 
+him of course), in less than a minute.
+
+Especially with Amelia, damn I got stuck fighting her for so much I almost stopped playing the game; probably this is the
+good thing of Bloodborne: the satisfaction you get when you slay a prey after all those retries.
+</details>
+
 ### Health
 <details>
 <summary>
