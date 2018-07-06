@@ -572,6 +572,34 @@ He introduces the notion of Algebraic Effects.
 [Principle of least power](http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html).
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=x7j6KeQgZ6k">From Javascript to Haskell : Functional Programming made simple - Voxxed Days Singapore 2018 (50:04)</a>
+</summary>
+
+Audio of one of the two speakers is horrible, adding some noise from the audience makes the video difficult to understand, I 
+just followed their actions on the code to understand what was going on. And it's a shame, the content realle seemed high
+quality!
+
+They start with a function that searches for movie titles in a movie database.
+
+First pass: extract functions from the bigger one to name steps, leave the while loop untouched.
+
+Second pass: extract movie database fixture from tests into a variable to reduce duplication, this highlights the fact
+that in the function they're modifying the array. Used `for (let element of elements)` to remove the problem.
+
+Third pass: add type signatures on top of functions, as comments.
+
+"If you have a function that returns nothing that's either a) useless or b) containing side effects."
+
+Fourth pass: moving the side effects to the edkges of the application.
+
+Fifth pass: syntax allows for more succint code. 
+
+Stopped around min 30, as the other speaker started a solo that lasted more or less the rest of the talk, too
+difficult to understand.
+</details>
+
 ### Gaming
 <details>
 <summary>
