@@ -6,6 +6,7 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
 [These are the channels where I get most of my sources](#sources).
 
  * [Algorithms and data structures](#algorithms-and-data-structures)
+ * [Art](#art)
  * [Category Theory](#category-theory)
  * [Cyber security](#cyber-security)
  * [DIY](#diy)
@@ -36,6 +37,20 @@ some background on the matter, "some" because it's not an area I find particular
 be worth. Oh, and prepare to hear lots of "oooook"s and "any questions"s.
 
 All my notes here were taken on paper, before I created this repo.
+</details>
+
+### Art
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=lLWEXRAnQd0">Bob Ross - Island in the Wilderness (Season 29 Episode 1) (25:09)</a>
+</summary>
+
+Happy and calm.
+
+"Everyone needs a friend".
+
+"We don't make mistakes, just happy accidents".
 </details>
 
 ### Category Theory
