@@ -1309,6 +1309,20 @@ of this type you've verified the proposition (more or less, I am not sure I am
 grasping this).
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=OEdXcn1rx6k">An Introduction to Refinement Types (29:46)</a>
+</summary>
+(sound is quite bad due to a constant noise in the background) 
+ 
+Good languages make it difficult to shoot yourself in the foot, but you can still shoot yourself in the foot.
+
+Well typed programs can go very wrong.
+
+Refinement types = Types + Predicates
+</details>
+
+
 ### TypeScript
 
 <details>
