@@ -1322,6 +1322,29 @@ Well typed programs can go very wrong.
 Refinement types = Types + Predicates
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=8DBjDwKI138">PLSE Seminar Series Ranjit Jhala, "Refinement Types for Dynamic Languages" (1:04:14)</a>
+</summary>
+The programmer tells what they want to analyse, so types, null pointer, array bounds, information flow, assertions.
+ 
+An example of a refinement type: `{ x : b | p }`, where
+
+ * `x` is the value name
+ * `b` is the base type
+ * `p` is the refinement
+ 
+Read as "set of values `x` of type `b` such that `p` is `true`".
+
+How to analyse `reduce` and describe its behaviour also as a refinement type?
+
+Reduce example type signature: 
+
+```
+function reduce <A, B>(a: A[], B, (B, number, A) => B): B
+```
+</details>
+
 
 ### TypeScript
 
