@@ -1338,11 +1338,22 @@ Read as "set of values `x` of type `b` such that `p` is `true`".
 
 How to analyse `reduce` and describe its behaviour also as a refinement type?
 
-Reduce example type signature: 
+Given this `reduce` example type signature `function reduce <A, B>(a: A[], B, (B, number, A) => B): B` we can enforce that
+`number`, second parameter of the iterator, is a valid index of `a`, as such 
+`function reduce <A, B>(a: A[], B, (B, idx<a>, A) => B): B`.
 
-```
-function reduce <A, B>(a: A[], B, (B, number, A) => B): B
-```
+Refinement types = Type analysis + Value analysis
+
+Challenges about implementing refinement types
+
+  * dynamic types
+  * assignments
+  * mutations
+  
+Dynamic types -> value based overloading
+
+First a run of the typechecker is made, then we can decorate with the refinement types. Value analysis builds on top of the 
+type analysis.
 </details>
 
 
