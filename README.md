@@ -43,6 +43,14 @@ All my notes here were taken on paper, before I created this repo.
 
 <details>
 <summary>
+<a href="https://www.youtube.com/watch?v=vgbMONXc9Cs">Bob Ross - Northern Lights (Season 8 Episode 13) (27:20)</a>
+</summary>
+
+"God was really having a good day when he made Alaska."
+</details>
+
+<details>
+<summary>
 <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0">Bob Ross - Island in the Wilderness (Season 29 Episode 1) (25:09)</a>
 </summary>
 
