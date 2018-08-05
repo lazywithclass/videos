@@ -43,6 +43,23 @@ All my notes here were taken on paper, before I created this repo.
 
 <details>
 <summary>
+<a href="https://www.youtube.com/watch?v=L5bXkI0-pEg">Bob Ross - Campfire (Season 3 Episode 10) (26:32)</a>
+</summary>
+
+Love the sound the knife makes while colors are being mixed and then applied to the canvas.
+
+"Use your imagination. Let your heart take wherever you wanna go."
+
+When talking about how a portrait teacher told him to go back to trees and bushes, because "...that's where your heart 
+is.": "Talent is nothing more than a pursued interest".
+
+"You really want painting to make you happy. That is all it is about."
+
+Particular thing to notice about this painting is that he painted a man, it's something rare in Bob Ross' paintings.
+</details>
+
+<details>
+<summary>
 <a href="https://www.youtube.com/watch?v=vgbMONXc9Cs">Bob Ross - Northern Lights (Season 8 Episode 13) (27:20)</a>
 </summary>
 
