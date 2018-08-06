@@ -943,6 +943,23 @@ Phenomenal closing though about "THE ride of your life".
 Where they explain why it would be bad for us to discover ruins of a civilization on Mars.
 
 They also offer a few answers on the [Fermi paradox](https://en.wikipedia.org/wiki/Fermi_paradox).
+</details
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=OWJCfOvochA">Quantum Computing Expert Explains One Concept in 5 Levels of Difficulty | WIRED (19:27)</a>
+</summary>
+
+Super position and entanglement.
+
+Shows a spinning coin and explains how you don't know whether is heads or tails. If you have two which are spinning and entangled then if when stopping one it turns heads then also the other one is going to turn heads.
+
+She spent increasingly larger amount of times as the level of education of the other person increased. I would've loved each session to last the same amount of time, describing the same things with the most effective words for each person.
+
+There are two big challenges
+
+ * fault tolerance
+ * amount of operation you could do before time runs out and you lose the information about what you were doing
 </details>
 
 
