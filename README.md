@@ -8,6 +8,7 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
  * [Algorithms and data structures](#algorithms-and-data-structures)
  * [Art](#art)
  * [Category Theory](#category-theory)
+ * [Combinators](#combinators)
  * [Cyber security](#cyber-security)
  * [DIY](#diy)
  * [Functional programming](#functional-programming)
@@ -187,6 +188,88 @@ In Category Theory people use Greek, not Latin, so:
 
  * injective -> monomorphism
  * surjective -> epimorphism
+</details>
+
+### Combinators
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=3VQ382QG-y4">Lambda Calculus - Fundamentals of Lambda Calculus & Functional Programming in JavaScript (1:02:14)</a>
+</summary>
+
+Idiot (or Ibis) combinator (identity)
+
+```JS
+const I = a => a
+```
+
+In lambda calculus you have:
+ * identifier - defining a variables
+ * application - applies a function to arguments
+ * abstraction - defines a new function: `λa.b` in JavaScript is `const funx = a => b`
+ * grouping - disambiguates operator precedence
+ 
+In lambda calculus all functions are unary, take a single argument.
+
+Beta reduction, scary name but it just means taking a function and applying it to its arguments. For example
+
+```
+((λa.a) λb.λc.b)(x)λe.f
+
+       (λb.λc.b)(x)λe.f
+
+           (λc.x)  λe.f
+           
+               x
+```
+
+So we fully evaluated the function, beta-normal form.
+
+Mockingbird combinator (self application)
+
+```js
+const M = f => f(f)
+
+M(I) === I(I) === I
+
+M(M) === never // maximum calls stack size exceeded
+```
+
+We don't know if some lambda term is going to have a beta normal form, if the process
+of reduction ends or not. Sometimes it does, sometimes it diverges. Halting problem.
+
+Kestrel combinator (first, const)
+
+```js
+const K = a => b => a
+```
+
+Kite combinator (second)
+
+```js
+const KI = a => b => b
+
+// which could be also written using the Kestrel and the Identity
+const KI = K(I)(x)(y)
+// x is dropped, K(I)(x) is I and I(y) is y
+
+```
+
+A combinator is a function with no free variables, `λb.a` is not a combinator,
+`λa.b` is a combinator.
+
+Cardinal combinator (reverse arguments)
+
+```js
+const C = f => a => b => f(b)(a)
+
+// the Cardinal of the Kestrel takes two things and returns the second
+C(K)(I)(M) === M
+// which is the Kite
+KI(I)(M) === M
+```
+
+At this point the speaker seem to start talking about [programming with nothing](https://www.youtube.com/watch?v=VUhlNx_-wYk).
 </details>
 
 ### Cyber security
