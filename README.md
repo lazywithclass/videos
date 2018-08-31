@@ -269,7 +269,19 @@ C(K)(I)(M) === M
 KI(I)(M) === M
 ```
 
-At this point the speaker seem to start talking about [programming with nothing](https://www.youtube.com/watch?v=VUhlNx_-wYk).
+[At this point](https://youtu.be/3VQ382QG-y4?t=2190) the speaker seem to start talking about a subject similar to the one 
+exposed in [programming with nothing](https://www.youtube.com/watch?v=VUhlNx_-wYk), so `true` is the `K`estrel and `false`
+is the `KI`te.
+
+These are called Church encodings.
+
+`Not = λp.pFT` which in JavaScript is `const not = p => p(F)(T)`.
+
+`CtT = F` and `CF = T`.
+
+`const and = p => q => p(q)(p)`
+
+`const or = p => q => p(p)(q)`
 </details>
 
 ### Cyber security
