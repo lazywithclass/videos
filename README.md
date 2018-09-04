@@ -1038,7 +1038,7 @@ Phenomenal closing though about "THE ride of your life".
 Where they explain why it would be bad for us to discover ruins of a civilization on Mars.
 
 They also offer a few answers on the [Fermi paradox](https://en.wikipedia.org/wiki/Fermi_paradox).
-</details
+</details>
 
 <details>
 <summary>
