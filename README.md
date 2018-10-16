@@ -1512,6 +1512,47 @@ type analysis.
  Documentation pops automatically up when including a library and having its declaration files with type definitions.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=MbZoQlmQaWQ">"Understanding TypeScript's Structural Type System" by Drew Colthorp (37:46)</a>
+</summary>
+ 
+No need to speed the video, the speaker already goes super fast on his own!
+
+Brief introduction of what TypeScript is.
+
+"What is a type system? A logic system that derives constraints from code structures and reasons about them
+systematically to find inconsistencies."
+
+"Turn a 2am production error into a red squiggle in our code"
+
+TypeScript has a structural type system.
+
+Nominal type system -> secret club you need to be invited to
+Structural type system -> as long as you meet the minimal requirements you can enter
+
+```TypeScript
+type Point = { x: number, y: number }
+type Named = { name: string }
+type NamedPoint = { name: string, x: number, y: number }
+```
+`NamedPoint` can be used anywhere `Point` or `Named` is expected. A better approach would be 
+`type NamedPoint = Point & Named` (`and`ing together the requirements of both types).
+
+Type-level programming.
+
+```TypeScript
+const ident = x => x // value-level
+type Ident<T> = T    // type-level
+
+const pair = (x, y) => [x, y] // value-level
+type Pair<T, U> = [T, U]      // type-level
+```
+
+Towards the end the speaker wonders if the type system is Turing complete or not, 
+well: https://github.com/Microsoft/TypeScript/issues/14833
+</details>
+
 ### UX
 
 <details>
