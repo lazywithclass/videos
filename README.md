@@ -16,7 +16,7 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
  * [Health](#health)
  * [Idris](#idris)
  * [miniKanren](#minikanren)
- * [music](#music)
+ * [Music](#music)
  * [Politics](#politics)
  * [Science](#science)
  * [Spacemacs](#spacemacs)
