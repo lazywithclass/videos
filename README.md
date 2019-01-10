@@ -16,6 +16,7 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
  * [Health](#health)
  * [Idris](#idris)
  * [miniKanren](#minikanren)
+ * [music](#music)
  * [Politics](#politics)
  * [Science](#science)
  * [Spacemacs](#spacemacs)
@@ -924,6 +925,16 @@ Macros and `define-syntax` are next.
 
 Small introduction to lambda calculus closes the video.
 </details>
+
+### Music
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=1_sIdXTqXKU">Bach - Goldberg Variations - Andras Schiff (1:16:15)</a>
+</summary>
+ 
+ > The Goldberg Variations, BWV 988, are a work written for harpsichord by Johann Sebastian Bach, consisting of an aria and a set of 30 variations. First published in 1741, the work is one of the most important examples of variation form. They are named after Johann Gottlieb Goldberg, who may have been the first performer. 
+ </details>
 
 ### Politics
 <details>
