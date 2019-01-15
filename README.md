@@ -328,7 +328,22 @@ Stages of cyber-physical attacks
 Security is about rising the cost of the attack.
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=vsMydMDi3rI">Frank Abagnale: "Catch Me If You Can" | Talks at Google (1:03:09)</a>
+</summary>
+
+The talk itself is around 40 minutes long, but the Q/A part is also interesting.
+
+One thing he said I wasn't expecting: it would be way easier to do now what he did because of how pervasive technology is;
+and people are still the weaker point in the system, a hacker waits for two things:
+
+ * for someone to do what they were not supposed to do
+ * for someone not to do something they were supposed to do
+</details>
+
 ### DIY
+
 <details>
 <summary>
 <a href="https://www.youtube.com/watch?v=jFBmYS0tME4">Making a 5 Shots Assassin's Creed Style Wrist Crossbow | Shooting (21:17)</a>
@@ -338,6 +353,7 @@ I found the time lapse relaxing and full of little "ah-ha! that's how that's don
 </details>
 
 ### Functional programming
+
 <details>
 <summary>
 <a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016 (29:56)</a>
