@@ -191,6 +191,40 @@ In Category Theory people use Greek, not Latin, so:
  * surjective -> epimorphism
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=ho7oagHeqNc">Category Theory in Life - Eugenia Cheng (40:38)</a>
+</summary>
+
+Sameness, One of the aims of Category Theory
+
+Category Theory is the logical study of the logical study if how logical things work. 
+Things only behave logically in the abstract work of ideas. Take for example [London's tube map](http://content.tfl.gov.uk/standard-tube-map.pdf), it's not realistic, it just represents how stop are connected to each other.
+
+We should study things according to their relations with each other, rather then their intrinsic characteristics.
+So we should understand everything in context, rather than in isolation.
+Relations are called morphisms.
+
+Math is all about trying to organise things efficiently, so we can reason about it more efficiently.
+
+Associativity could be explained as "The grandmother of my mother is the mother of my grandmother".
+Another example is:
+
+ * if I mix egg yolk and sugar, then I add milk, and I heat it up, I get custard
+ * if I mix sugar and milk, and then I mix egg yold, and heat it up, I do not get custard
+ 
+If I mix sugar, butter, eggs, flour, I can make a cake. The same goes if I mix them in any other order.
+
+Commutativity is the one that enables us to pick the easier one in this equation `8 + 1 = 1 + 8`, which is the one on the left. It's 
+way easier to add `8` to `1`, same goes for `(8 + 5) + 5 = 8 + (5 + 5)`.
+
+Isomorphic objects are treated the same by the rest of the category.
+
+Depends what category you're in, Always make clear which context you're in, this is only happening in that context.
+
+Abstracting is forgetting about data that isn't revelevant to the situation, not data that is relevant to the situation.
+</details>
+
 ### Combinators
 
 <details>
