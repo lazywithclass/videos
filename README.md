@@ -1439,6 +1439,8 @@ Use exceptions when you don't expect people to recover from them, so for excepti
 <summary>
 <a href="https://www.youtube.com/watch?v=MvQxNm5gn8g">A Pragmatic Introduction to Category Theory - Daniela Sfregola (40:31)</a>
 </summary>
+ 
+ From the same speaker: [A Pragmatic Introduction to Category Theory—Daniela Sfregola - (1:16:35)](https://www.youtube.com/watch?v=Ss149MsZluI)
 
 A category is two objects and an arrow that connects them, objects could be anything. Objects are types and 
 arrows are functions.
