@@ -45,6 +45,18 @@ All my notes here were taken on paper, before I created this repo.
 
 <details>
 <summary>
+<a href="https://www.youtube.com/watch?v=oh5p5f5_-7A&list=PLAEQD0ULngi69x_7JbQvSMprLRK_KSVLu">Bob Ross - A Walk in the Woods (Season 1 Episode 1) (28:01)</a>
+</summary>
+
+"We start with a vision in our heart and then we put it in our canvas."
+
+While he's drawing trees: "This son of a gun was hiding in the brush the whole time, I just needed to push him out."
+
+"In that time you stayed there worrying about doing or not a painting you could've done one, just let it happen."
+</details>
+
+<details>
+<summary>
 <a href="https://www.youtube.com/watch?v=L5bXkI0-pEg">Bob Ross - Campfire (Season 3 Episode 10) (26:32)</a>
 </summary>
 
