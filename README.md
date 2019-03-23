@@ -45,7 +45,7 @@ All my notes here were taken on paper, before I created this repo.
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=oh5p5f5_-7A&list=PLAEQD0ULngi69x_7JbQvSMprLRK_KSVLu">Bob Ross - A Walk in the Woods (Season 1 Episode 1) (28:01)</a>
+<a href="https://www.youtube.com/watch?v=oh5p5f5_-7A&list=PLAEQD0ULngi69x_7JbQvSMprLRK_KSVLu">Bob Ross - Mt. McKinley (Season 1 Episode 2) (28:32)</a>
 </summary>
 
 "We start with a vision in our heart and then we put it in our canvas."
@@ -53,6 +53,14 @@ All my notes here were taken on paper, before I created this repo.
 While he's drawing trees: "This son of a gun was hiding in the brush the whole time, I just needed to push him out."
 
 "In that time you stayed there worrying about doing or not a painting you could've done one, just let it happen."
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=RInDWhYceLU&index=2&list=PLAEQD0ULngi69x_7JbQvSMprLRK_KSVLu">Bob Ross - A Walk in the Woods (Season 1 Episode 1) (28:01)</a>
+</summary>
+
+I didn't really like the music in background as it distracts from Ross' voice, but the beauty of the painting made me go through nonetheless.
 </details>
 
 <details>
