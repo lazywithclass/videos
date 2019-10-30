@@ -82,14 +82,6 @@ Particular thing to notice about this painting is that he painted a man, it's so
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=vgbMONXc9Cs">Bob Ross - Northern Lights (Season 8 Episode 13) (27:20)</a>
-</summary>
-
-"God was really having a good day when he made Alaska."
-</details>
-
-<details>
-<summary>
 <a href="https://www.youtube.com/watch?v=lLWEXRAnQd0">Bob Ross - Island in the Wilderness (Season 29 Episode 1) (25:09)</a>
 </summary>
 
@@ -98,6 +90,24 @@ Happy and calm.
 "Everyone needs a friend".
 
 "We don't make mistakes, just happy accidents".
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=hP4GfMgsNVE">Bob Ross - Purple Splendor (Season 4 Episode 1) (27:41)</a>
+</summary>
+
+"...we just sort of let these paintings flow right out of our heart, and you can too... that's what makes it so fantastic."
+
+"This is your world, you create the illusions that you want."
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=vgbMONXc9Cs">Bob Ross - Northern Lights (Season 8 Episode 13) (27:20)</a>
+</summary>
+
+"God was really having a good day when he made Alaska."
 </details>
 
 ### Category Theory
