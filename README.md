@@ -11,10 +11,12 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
  * [Combinators](#combinators)
  * [Cyber security](#cyber-security)
  * [DIY](#diy)
+ * [Fun](#fun)
  * [Functional programming](#functional-programming)
  * [Gaming](#gaming)
  * [Health](#health)
  * [Idris](#idris)
+ * [Math](#math)
  * [miniKanren](#minikanren)
  * [Music](#music)
  * [Politics](#politics)
@@ -414,6 +416,15 @@ and people are still the weaker point in the system, a hacker waits for two thin
 </summary>
 
 I found the time lapse relaxing and full of little "ah-ha! that's how that's done!" moments.
+</details>
+
+### Fun
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=a_TSR_v07m0">Porch Pirate vs. Glitter Bomb Trap 2.0 (18:14)</a>
+</summary>
+
+When science is fun
 </details>
 
 ### Functional programming
@@ -916,7 +927,6 @@ Lowercase letters in types are always implicitly bound.
 
 As soon as you have something a bit hard to do, make another function to do that harder thing.
 </details>
-
 
 ### miniKanren
 <details>
