@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -L https://yt-dl.org/downloads/latest/youtube-dl -o youtube-dl
+curl -kL https://yt-dl.org/downloads/latest/youtube-dl -o youtube-dl
