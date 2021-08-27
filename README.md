@@ -112,6 +112,14 @@ Happy and calm.
 "God was really having a good day when he made Alaska."
 </details>
 
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=QDwd4pMYyuo">Bob Ross - Winding Stream (Season 31 Episode 3) (25:04)</a>
+</summary>
+
+I followed along this episode and painted my own version.
+</details>
+
 ### Category Theory
 <details>
 <summary>
