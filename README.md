@@ -114,6 +114,14 @@ Happy and calm.
 
 <details>
 <summary>
+<a href="https://www.youtube.com/watch?v=9BHWlbjd95c">Bob Ross - An Arctic Winter Day (Season 26 Episode 6) (24:50)</a>
+</summary>
+
+I followed along this episode and painted my own version.
+</details>
+
+<details>
+<summary>
 <a href="https://www.youtube.com/watch?v=QDwd4pMYyuo">Bob Ross - Winding Stream (Season 31 Episode 3) (25:04)</a>
 </summary>
 
