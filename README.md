@@ -94,18 +94,6 @@ Particular thing to notice about this painting is that he painted a man, it's so
 
 <details>
 <summary>
-<a href="https://www.youtube.com/watch?v=lLWEXRAnQd0">Bob Ross - Island in the Wilderness (Season 29 Episode 1) (25:09)</a>
-</summary>
-
-Happy and calm.
-
-"Everyone needs a friend".
-
-"We don't make mistakes, just happy accidents".
-</details>
-
-<details>
-<summary>
 <a href="https://www.youtube.com/watch?v=vgbMONXc9Cs">Bob Ross - Northern Lights (Season 8 Episode 13) (27:20)</a>
 </summary>
 
@@ -118,6 +106,18 @@ Happy and calm.
 </summary>
 
 I followed along this episode and painted my own version.
+</details>
+
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=lLWEXRAnQd0">Bob Ross - Island in the Wilderness (Season 29 Episode 1) (25:09)</a>
+</summary>
+
+Happy and calm.
+
+"Everyone needs a friend".
+
+"We don't make mistakes, just happy accidents".
 </details>
 
 <details>
