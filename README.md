@@ -122,6 +122,14 @@ Happy and calm.
 
 <details>
 <summary>
+<a href="https://www.youtube.com/watch?v=dNEp3hoHSDI">Bob Ross - Mountain Lake Falls (Season 29 Episode 6) (25:22)</a>
+</summary>
+
+"When painting a cloud you have to think like a cloud..."
+</details>
+
+<details>
+<summary>
 <a href="https://www.youtube.com/watch?v=QDwd4pMYyuo">Bob Ross - Winding Stream (Season 31 Episode 3) (25:04)</a>
 </summary>
 
