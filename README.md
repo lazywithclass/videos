@@ -102,6 +102,13 @@ Particular thing to notice about this painting is that he painted a man, it's so
 
 <details>
 <summary>
+<a href="https://www.youtube.com/watch?v=vrAMRxBB5KI">Bob Ross - Secluded Bridge (Season 10 Episode 4) (27:27)</a>
+</summary>
+
+</details>
+
+<details>
+<summary>
 <a href="https://www.youtube.com/watch?v=9BHWlbjd95c">Bob Ross - An Arctic Winter Day (Season 26 Episode 6) (24:50)</a>
 </summary>
 
