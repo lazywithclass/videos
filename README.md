@@ -137,6 +137,14 @@ Happy and calm.
 
 <details>
 <summary>
+<a href="https://www.youtube.com/watch?v=kJFB6rH3z2A">Bob Ross - Reflections of Calm (Season 31 Episode 1) (25:49)</a>
+</summary>
+
+I followed along this episode and painted my own version.
+</details>
+
+<details>
+<summary>
 <a href="https://www.youtube.com/watch?v=QDwd4pMYyuo">Bob Ross - Winding Stream (Season 31 Episode 3) (25:04)</a>
 </summary>
 
