@@ -1136,21 +1136,22 @@ beggars needs restructuring".
 ### Programming
 <details>
 <summary>
-<a href="https://www.netflix.com/watch/80004601">Cosmos - A Spacetime Odyssey</a>
-</summary>
-
-From Neil Degrasse Tyson, I love the series. It's not fun-oriented but they keep it interesting at every episode. Also
-Neil's voice is pretty calming.
-</details>
-
-### Science
-<details>
-<summary>
 <a href="https://www.youtube.com/watch?v=wyABTfR9UTU">Object Oriented Programming vs Functional Programming</a>
 </summary>
 
 Interesting take on the usual debate.
 OOP is much more about passing messages between objects and let them react (polymorphism), rather than about inheritance. 
+</details>
+
+### Science
+
+<details>
+<summary>
+<a href="https://www.netflix.com/watch/80004601">Cosmos - A Spacetime Odyssey</a>
+</summary>
+
+From Neil Degrasse Tyson, I love the series. It's not fun-oriented but they keep it interesting at every episode. Also
+Neil's voice is pretty calming.
 </details>
 
 <details>
