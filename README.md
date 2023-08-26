@@ -20,6 +20,7 @@ usually they sum up video contents, have a look to get a eagle eye view, do not 
  * [miniKanren](#minikanren)
  * [Music](#music)
  * [Politics](#politics)
+ * [Programming](#programming)
  * [Science](#science)
  * [Spacemacs](#spacemacs)
  * [Sports](#sports)
@@ -1132,7 +1133,7 @@ they make their journey on life’s highway. True compassion is more than flingi
 beggars needs restructuring".
 </details>
 
-### Science
+### Programming
 <details>
 <summary>
 <a href="https://www.netflix.com/watch/80004601">Cosmos - A Spacetime Odyssey</a>
@@ -1140,6 +1141,16 @@ beggars needs restructuring".
 
 From Neil Degrasse Tyson, I love the series. It's not fun-oriented but they keep it interesting at every episode. Also
 Neil's voice is pretty calming.
+</details>
+
+### Science
+<details>
+<summary>
+<a href="https://www.youtube.com/watch?v=wyABTfR9UTU">Object Oriented Programming vs Functional Programming</a>
+</summary>
+
+Interesting take on the usual debate.
+OOP is much more about passing messages between objects and let them react (polymorphism), rather than about inheritance. 
 </details>
 
 <details>
